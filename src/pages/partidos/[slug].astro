@@ -1,0 +1,111 @@
+---
+import DiputadoCard from '../../components/DiputadoCard/DiputadoCard.astro';
+import { supabase } from '../../lib/supabase';
+import type { Diputado } from '../../types/diputado';
+import '../../styles/global.css';
+
+// Generar rutas estáticas para todos los partidos
+export async function getStaticPaths() {
+  const { data } = await supabase
+    .from('diputados')
+    .select('partido_politico')
+    .eq('activo', true);
+
+  const partidos = new Set<string>();
+  (data || []).forEach((row: any) => {
+    if (row.partido_politico) partidos.add(row.partido_politico);
+  });
+
+  return Array.from(partidos).map((partido) => ({
+    params: { slug: encodeURIComponent(partido) },
+  }));
+}
+
+const { slug } = Astro.params;
+let diputados: Diputado[] = [];
+let error: string | null = null;
+const nombrePartido = decodeURIComponent(slug || '');
+
+try {
+  const { data, error: supabaseError } = await supabase
+    .from('diputados')
+    .select('*')
+    .eq('activo', true)
+    .eq('partido_politico', nombrePartido)
+    .order('numero_lista', { ascending: true });
+
+  if (supabaseError) throw new Error(supabaseError.message);
+  diputados = data || [];
+} catch (e) {
+  error = e instanceof Error ? e.message : 'Error desconocido';
+}
+---
+
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Diputados de {nombrePartido} - Congreso Guatemala</title>
+    <meta name="description" content={`Lista de diputados del partido ${nombrePartido} en el Congreso de Guatemala.`} />
+  </head>
+  <body class="bg-gray-50 min-h-screen">
+    <main class="container mx-auto px-4 py-8 max-w-7xl">
+      <header class="mb-12">
+        <div class="mb-6">
+          <a href="/partidos" class="inline-flex items-center text-blue-600 hover:text-blue-700">
+            <span class="text-xl">←</span>
+            <span class="ml-2">Volver a partidos</span>
+          </a>
+        </div>
+        <div class="bg-gradient-to-r from-blue-600 to-indigo-600 rounded-2xl shadow-xl p-8 text-white">
+          <h1 class="text-3xl md:text-4xl font-bold mb-2">
+            {nombrePartido}
+          </h1>
+          <p class="text-blue-100 text-lg">
+            {diputados.length} {diputados.length === 1 ? 'diputado' : 'diputados'} en el Congreso
+          </p>
+        </div>
+      </header>
+
+      {error ? (
+        <div class="bg-red-50 border border-red-200 rounded-lg p-6 text-center">
+          <h2 class="text-2xl font-bold text-red-700 mb-2">Error al cargar diputados</h2>
+          <p class="text-red-600">{error}</p>
+        </div>
+      ) : (
+        <section>
+          {diputados.length === 0 ? (
+            <div class="bg-white rounded-lg shadow p-12 text-center">
+              <div class="text-6xl mb-4">🤷</div>
+              <h2 class="text-2xl font-bold text-gray-700 mb-2">
+                No hay diputados para este partido
+              </h2>
+              <p class="text-gray-500 mb-6">
+                No se encontraron diputados activos del partido {nombrePartido}
+              </p>
+              <a 
+                href="/partidos" 
+                class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-lg transition-colors"
+              >
+                Ver otros partidos
+              </a>
+            </div>
+          ) : (
+            <div>
+              <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                {diputados.map((d) => (
+                  <DiputadoCard diputado={d} />
+                ))}
+              </div>
+            </div>
+          )}
+        </section>
+      )}
+
+      <footer class="text-center mt-16 text-gray-600">
+        <p>&copy; {new Date().getFullYear()} Congreso de la República de Guatemala</p>
+      </footer>
+    </main>
+  </body>
+</html>

@@ -1,16 +1,77 @@
 ---
-
+import '../styles/global.css';
 ---
 
-<html lang="en">
+<html lang="es">
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<title>Diputados Guatemala - Directorio Oficial</title>
+		<meta name="description" content="Directorio oficial de diputados del Congreso de la República de Guatemala. Información actualizada de representantes por distrito y partido político." />
 	</head>
-	<body>
-		<h1>Astro</h1>
+	<body class="bg-gradient-to-br from-blue-50 to-indigo-100 min-h-screen">
+		<main class="container mx-auto px-4 py-16">
+			<div class="text-center mb-16">
+				<div class="mb-8">
+					<span class="text-6xl">🏛️</span>
+				</div>
+				<h1 class="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
+					Congreso de Guatemala
+				</h1>
+				<p class="text-xl md:text-2xl text-gray-700 mb-4 max-w-3xl mx-auto">
+					Sistema de información sobre los diputados del Congreso de la República de Guatemala
+				</p>
+				<p class="text-lg text-gray-600 max-w-2xl mx-auto">
+					Conoce a tus representantes, sus partidos políticos y la información de contacto de manera transparente y accesible.
+				</p>
+			</div>
+
+			<div class="max-w-4xl mx-auto">
+				<div class="bg-white rounded-2xl shadow-xl p-8 md:p-12 mb-12">
+					<h2 class="text-3xl font-bold text-gray-900 mb-6 text-center">
+						¿Qué puedes hacer aquí?
+					</h2>
+					<div class="grid md:grid-cols-3 gap-8 mb-10">
+						<div class="text-center">
+							<div class="text-4xl mb-4">🎯</div>
+							<h3 class="text-xl font-semibold mb-2">Explora Partidos</h3>
+							<p class="text-gray-600">Consulta todos los partidos políticos representados en el Congreso</p>
+						</div>
+						<div class="text-center">
+							<div class="text-4xl mb-4">👥</div>
+							<h3 class="text-xl font-semibold mb-2">Conoce Diputados</h3>
+							<p class="text-gray-600">Información detallada de cada representante por partido</p>
+						</div>
+						<div class="text-center">
+							<div class="text-4xl mb-4">📊</div>
+							<h3 class="text-xl font-semibold mb-2">Datos Actualizados</h3>
+							<p class="text-gray-600">Información oficial y actualizada del Congreso</p>
+						</div>
+					</div>
+
+					<div class="text-center">
+						<a 
+							href="/partidos" 
+							class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold text-lg px-8 py-4 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
+						>
+							Ver Partidos Políticos →
+						</a>
+					</div>
+				</div>
+
+				<div class="bg-blue-600 text-white rounded-xl p-8 text-center">
+					<h3 class="text-2xl font-bold mb-3">Transparencia Democrática</h3>
+					<p class="text-blue-100">
+						Este sistema promueve la transparencia y el acceso a información pública sobre nuestros representantes en el Congreso de la República.
+					</p>
+				</div>
+			</div>
+
+			<footer class="text-center mt-16 text-gray-600">
+				<p>&copy; {new Date().getFullYear()} Congreso de la República de Guatemala</p>
+			</footer>
+		</main>
 	</body>
 </html>

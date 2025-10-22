@@ -1,0 +1,40 @@
+---
+import type { DiputadoCardProps } from './DiputadoCard.ts';
+import { formatearNombreCompleto, obtenerIniciales, formatearUbicacion } from './DiputadoCard.ts';
+
+interface Props extends DiputadoCardProps {}
+
+const { diputado } = Astro.props;
+---
+
+<div class="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden border border-gray-200 relative hover:-translate-y-1">
+  <div class="absolute top-2 right-2 bg-gray-100 text-gray-700 text-xs font-bold py-1 px-2 rounded-full">
+    #{diputado.numero_lista}
+  </div>
+  
+  <div class="p-4 flex items-center space-x-4">
+    <div class="w-16 h-16 rounded-full overflow-hidden bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center text-white font-bold text-lg flex-shrink-0">
+      {diputado.foto_url ? (
+        <img 
+          src={diputado.foto_url} 
+          alt={formatearNombreCompleto(diputado.nombre, diputado.apellidos)}
+          class="w-full h-full object-cover"
+        />
+      ) : (
+        <span>{obtenerIniciales(diputado.nombre, diputado.apellidos)}</span>
+      )}
+    </div>
+    
+    <div class="flex-1 min-w-0">
+      <h3 class="text-lg font-semibold text-gray-900 mb-1 truncate">
+        {formatearNombreCompleto(diputado.nombre, diputado.apellidos)}
+      </h3>
+      <p class="text-sm font-medium text-blue-600 mb-1">
+        {diputado.partido_politico}
+      </p>
+      <p class="text-sm text-gray-500 truncate">
+        {formatearUbicacion(diputado.distrito, diputado.departamento)}
+      </p>
+    </div>
+  </div>
+</div>
