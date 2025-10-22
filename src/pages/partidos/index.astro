@@ -1,43 +1,18 @@
 ---
-import { supabase } from '../../lib/supabase';
+import { PartidosOrchestrator } from '../../orchestrators/partidos.orchestrator';
+import PartidoCard from '../../components/PartidoCard/PartidoCard.astro';
+import type { PartidoDTO } from '../../dtos/partido.dto';
 import '../../styles/global.css';
 
-// Obtener lista de partidos desde la tabla diputados (unicamente los partidos activos)
-let partidos: { partido_politico: string; total: number }[] = [];
+const orchestrator = new PartidosOrchestrator();
+let partidos: PartidoDTO[] = [];
 let error: string | null = null;
 
 try {
-  const { data, error: supabaseError } = await supabase
-    .from('diputados')
-    .select('partido_politico')
-    .eq('activo', true);
-
-  if (supabaseError) throw new Error(supabaseError.message);
-
-  const mapa = new Map<string, number>();
-  (data || []).forEach((row: any) => {
-    const partido = row.partido_politico || 'Sin Partido';
-    mapa.set(partido, (mapa.get(partido) || 0) + 1);
-  });
-
-  partidos = Array.from(mapa.entries())
-    .map(([partido, total]) => ({ partido_politico: partido, total }))
-    .sort((a, b) => b.total - a.total); // Ordenar por cantidad de diputados
+  partidos = await orchestrator.obtenerListadoPartidos();
 } catch (e) {
   error = e instanceof Error ? e.message : 'Error desconocido';
 }
-
-// Colores para los partidos
-const colores = [
-  'from-blue-500 to-blue-600',
-  'from-red-500 to-red-600',
-  'from-green-500 to-green-600',
-  'from-purple-500 to-purple-600',
-  'from-orange-500 to-orange-600',
-  'from-pink-500 to-pink-600',
-  'from-indigo-500 to-indigo-600',
-  'from-teal-500 to-teal-600',
-];
 ---
 
 <html lang="es">
@@ -65,57 +40,17 @@ const colores = [
         </p>
       </header>
 
-      {error ? (
-        <div class="bg-red-50 border border-red-200 rounded-lg p-6 text-center">
-          <h2 class="text-2xl font-bold text-red-700 mb-2">Error al cargar partidos</h2>
-          <p class="text-red-600">{error}</p>
+      {error && (
+        <div class="bg-red-50 border border-red-200 text-red-800 px-4 py-3 rounded-lg mb-8">
+          Error al cargar los partidos: {error}
         </div>
-      ) : (
-        <section>
-          {partidos.length === 0 ? (
-            <div class="bg-white rounded-lg shadow p-12 text-center">
-              <div class="text-6xl mb-4">🤷</div>
-              <h2 class="text-2xl font-bold text-gray-700 mb-2">No hay partidos disponibles</h2>
-              <p class="text-gray-500">No se encontraron partidos con diputados activos</p>
-            </div>
-          ) : (
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-              {partidos.map((p, index) => (
-                <a 
-                  href={`/partidos/${encodeURIComponent(p.partido_politico)}`}
-                  class="group block"
-                >
-                  <div class={`bg-gradient-to-br ${colores[index % colores.length]} rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 p-6 text-white h-full`}>
-                    <div class="flex flex-col h-full">
-                      <div class="flex-1">
-                        <h3 class="text-2xl font-bold mb-3 group-hover:scale-105 transition-transform">
-                          {p.partido_politico}
-                        </h3>
-                        <div class="flex items-center text-white/90">
-                          <span class="text-3xl mr-2">👥</span>
-                          <div>
-                            <p class="text-3xl font-bold">{p.total}</p>
-                            <p class="text-sm opacity-90">
-                              {p.total === 1 ? 'Diputado' : 'Diputados'}
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="mt-4 pt-4 border-t border-white/30">
-                        <span class="text-sm font-semibold group-hover:translate-x-1 inline-block transition-transform">
-                          Ver diputados →
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              ))}
-            </div>
-          )}
-        </section>
       )}
 
-      <footer class="text-center mt-16 text-gray-600">
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {partidos.map(partido => (
+          <PartidoCard partido={partido} />
+        ))}
+      </div>      <footer class="text-center mt-16 text-gray-600">
         <p>&copy; {new Date().getFullYear()} Congreso de la República de Guatemala</p>
       </footer>
     </main>

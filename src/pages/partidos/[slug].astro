@@ -1,41 +1,28 @@
 ---
 import DiputadoCard from '../../components/DiputadoCard/DiputadoCard.astro';
-import { supabase } from '../../lib/supabase';
-import type { Diputado } from '../../types/diputado';
+import { DiputadosOrchestrator } from '../../orchestrators/diputados.orchestrator';
+import { PartidosOrchestrator } from '../../orchestrators/partidos.orchestrator';
+import type { DiputadoDTO } from '../../dtos/diputado.dto';
 import '../../styles/global.css';
 
-// Generar rutas estáticas para todos los partidos
 export async function getStaticPaths() {
-  const { data } = await supabase
-    .from('diputados')
-    .select('partido_politico')
-    .eq('activo', true);
+  const orchestrator = new PartidosOrchestrator();
+  const nombresPartidos = await orchestrator.obtenerNombresPartidos();
 
-  const partidos = new Set<string>();
-  (data || []).forEach((row: any) => {
-    if (row.partido_politico) partidos.add(row.partido_politico);
-  });
-
-  return Array.from(partidos).map((partido) => ({
+  return nombresPartidos.map(partido => ({
     params: { slug: encodeURIComponent(partido) },
   }));
 }
 
 const { slug } = Astro.params;
-let diputados: Diputado[] = [];
-let error: string | null = null;
 const nombrePartido = decodeURIComponent(slug || '');
 
-try {
-  const { data, error: supabaseError } = await supabase
-    .from('diputados')
-    .select('*')
-    .eq('activo', true)
-    .eq('partido_politico', nombrePartido)
-    .order('numero_lista', { ascending: true });
+const orchestrator = new DiputadosOrchestrator();
+let diputados: DiputadoDTO[] = [];
+let error: string | null = null;
 
-  if (supabaseError) throw new Error(supabaseError.message);
-  diputados = data || [];
+try {
+  diputados = await orchestrator.obtenerDiputadosPorPartido(nombrePartido);
 } catch (e) {
   error = e instanceof Error ? e.message : 'Error desconocido';
 }
