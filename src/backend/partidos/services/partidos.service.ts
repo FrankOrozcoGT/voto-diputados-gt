@@ -1,4 +1,4 @@
-import type { PartidoDTO } from '../dtos/partido.dto';
+import type { PartidoDTO } from '@backend/partidos/dtos/partido.dto';
 
 export class PartidosService {
   private colores = [

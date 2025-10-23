@@ -1,4 +1,4 @@
-import type { DiputadoDTO, DiputadoRaw } from '../dtos/diputado.dto';
+import type { DiputadoDTO, DiputadoRaw } from '@backend/partidos/dtos/diputado.dto';
 
 export class DiputadosService {
   convertirADiputadoDTO(raw: DiputadoRaw): DiputadoDTO {

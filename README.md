@@ -72,19 +72,19 @@
 
 ```
 src/
-├── components/
-│   └── DiputadoCard/      # Componente de tarjeta de diputado
-├── hooks/
-│   └── useListadoDiputados.ts  # Hook para manejo de datos
-├── lib/
-│   └── supabase.ts        # Configuración de Supabase
-├── pages/
-│   └── index.astro        # Página principal
-├── styles/
-│   └── global.css         # Estilos globales
-└── types/
-    └── diputado.ts        # Tipos TypeScript
+├── backend/          # Backend organizado por caso de uso
+├── lib/              # Utilidades compartidas
+├── pages/            # Páginas y componentes del frontend
+└── styles/           # Estilos globales
 ```
+
+### Arquitectura
+
+- **Backend**: `src/backend/` - Organizado por caso de uso (DTOs, Repositories, Services, Orchestrators)
+- **Frontend**: `src/pages/` - Páginas Astro con SSR/SSG
+- **Imports**: Usa aliases `@backend/*` y `@/*` configurados en `tsconfig.json`
+
+Ver documentación completa en `.fcoder/memories/arquitectura/`
 
 ## 🔧 Scripts disponibles
 

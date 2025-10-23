@@ -1,6 +1,6 @@
-import { DiputadosRepository } from '../repositories/diputados.repository';
-import { DiputadosService } from '../services/diputados.service';
-import type { DiputadoDTO } from '../dtos/diputado.dto';
+import { DiputadosRepository } from '@backend/partidos/repositories/diputados.repository';
+import { DiputadosService } from '@backend/partidos/services/diputados.service';
+import type { DiputadoDTO } from '@backend/partidos/dtos/diputado.dto';
 
 export class DiputadosOrchestrator {
   private repository = new DiputadosRepository();

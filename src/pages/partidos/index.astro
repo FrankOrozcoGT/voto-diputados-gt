@@ -1,8 +1,8 @@
 ---
-import { PartidosOrchestrator } from '../../orchestrators/partidos.orchestrator';
-import PartidoCard from '../../components/PartidoCard/PartidoCard.astro';
-import type { PartidoDTO } from '../../dtos/partido.dto';
-import '../../styles/global.css';
+import { PartidosOrchestrator } from '@backend/partidos/orchestrators/partidos.orchestrator';
+import PartidoCard from './_components/PartidoCard/PartidoCard.astro';
+import type { PartidoDTO } from '@backend/partidos/dtos/partido.dto';
+import '@/styles/global.css';
 
 const orchestrator = new PartidosOrchestrator();
 let partidos: PartidoDTO[] = [];

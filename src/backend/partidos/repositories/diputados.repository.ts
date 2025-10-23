@@ -1,5 +1,5 @@
-import { supabase } from '../lib/supabase';
-import type { DiputadoRaw } from '../dtos/diputado.dto';
+import { supabase } from '@/lib/supabase';
+import type { DiputadoRaw } from '@backend/partidos/dtos/diputado.dto';
 
 export class DiputadosRepository {
   async buscarPorPartido(partido: string): Promise<DiputadoRaw[]> {

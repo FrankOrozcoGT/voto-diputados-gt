@@ -1,6 +1,6 @@
-import { PartidosRepository } from '../repositories/partidos.repository';
-import { PartidosService } from '../services/partidos.service';
-import type { PartidoDTO } from '../dtos/partido.dto';
+import { PartidosRepository } from '@backend/partidos/repositories/partidos.repository';
+import { PartidosService } from '@backend/partidos/services/partidos.service';
+import type { PartidoDTO } from '@backend/partidos/dtos/partido.dto';
 
 export class PartidosOrchestrator {
   private repository = new PartidosRepository();

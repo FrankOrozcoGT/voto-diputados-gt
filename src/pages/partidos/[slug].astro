@@ -1,9 +1,9 @@
 ---
-import DiputadoCard from '../../components/DiputadoCard/DiputadoCard.astro';
-import { DiputadosOrchestrator } from '../../orchestrators/diputados.orchestrator';
-import { PartidosOrchestrator } from '../../orchestrators/partidos.orchestrator';
-import type { DiputadoDTO } from '../../dtos/diputado.dto';
-import '../../styles/global.css';
+import DiputadoCard from './_components/DiputadoCard/DiputadoCard.astro';
+import { DiputadosOrchestrator } from '@backend/partidos/orchestrators/diputados.orchestrator';
+import { PartidosOrchestrator } from '@backend/partidos/orchestrators/partidos.orchestrator';
+import type { DiputadoDTO } from '@backend/partidos/dtos/diputado.dto';
+import '@/styles/global.css';
 
 export async function getStaticPaths() {
   const orchestrator = new PartidosOrchestrator();
