@@ -1,15 +1,13 @@
 ---
-import DiputadoCard from './_components/DiputadoCard/DiputadoCard.astro';
-import { DiputadosOrchestrator } from '@backend/partidos/orchestrators/diputados.orchestrator';
-import { PartidosOrchestrator } from '@backend/partidos/orchestrators/partidos.orchestrator';
-import type { DiputadoDTO } from '@backend/partidos/dtos/diputado.dto';
+import DiputadoCard from '@/features/diputados/_components/_DiputadoCard.astro';
+import { useDiputadosPorPartido } from '@/features/diputados/_hooks/_useDiputados';
+import { useNombresPartidos } from '@/features/partidos/_hooks/_usePartidos';
 import '@/styles/global.css';
 
 export async function getStaticPaths() {
-  const orchestrator = new PartidosOrchestrator();
-  const nombresPartidos = await orchestrator.obtenerNombresPartidos();
+  const { nombres } = await useNombresPartidos();
 
-  return nombresPartidos.map(partido => ({
+  return nombres.map(partido => ({
     params: { slug: encodeURIComponent(partido) },
   }));
 }
@@ -17,15 +15,8 @@ export async function getStaticPaths() {
 const { slug } = Astro.params;
 const nombrePartido = decodeURIComponent(slug || '');
 
-const orchestrator = new DiputadosOrchestrator();
-let diputados: DiputadoDTO[] = [];
+const { diputados } = await useDiputadosPorPartido(nombrePartido);
 let error: string | null = null;
-
-try {
-  diputados = await orchestrator.obtenerDiputadosPorPartido(nombrePartido);
-} catch (e) {
-  error = e instanceof Error ? e.message : 'Error desconocido';
-}
 ---
 
 <html lang="es">

@@ -1,18 +1,11 @@
 ---
-import { PartidosOrchestrator } from '@backend/partidos/orchestrators/partidos.orchestrator';
-import PartidoCard from './_components/PartidoCard/PartidoCard.astro';
-import type { PartidoDTO } from '@backend/partidos/dtos/partido.dto';
+import { usePartidos } from '@/features/partidos/_hooks/_usePartidos';
+import PartidoCard from '@/features/partidos/_components/_PartidoCard.astro';
 import '@/styles/global.css';
 
-const orchestrator = new PartidosOrchestrator();
-let partidos: PartidoDTO[] = [];
+const { partidos } = await usePartidos();
 let error: string | null = null;
 
-try {
-  partidos = await orchestrator.obtenerListadoPartidos();
-} catch (e) {
-  error = e instanceof Error ? e.message : 'Error desconocido';
-}
 ---
 
 <html lang="es">
