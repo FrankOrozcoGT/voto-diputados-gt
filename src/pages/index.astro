@@ -1,5 +1,6 @@
 ---
 import { SessionGuard } from '@/features/auth/components/SessionGuard';
+import { LogoutButtonWrapper } from '@/features/auth/components/LogoutButtonWrapper';
 import '../styles/global.css';
 ---
 
@@ -14,6 +15,11 @@ import '../styles/global.css';
 	</head>
 	<body class="bg-gradient-to-br from-blue-50 to-indigo-100 min-h-screen">
 		<SessionGuard client:only="react">
+		<div class="container mx-auto px-4 py-4">
+			<div class="flex justify-end">
+				<LogoutButtonWrapper client:load />
+			</div>
+		</div>
 		<main class="container mx-auto px-4 py-16">
 			<div class="text-center mb-16">
 				<div class="mb-8">
