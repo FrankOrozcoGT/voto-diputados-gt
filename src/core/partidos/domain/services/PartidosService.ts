@@ -2,37 +2,51 @@ import type { PartidoDTO } from '../../application/dtos/PartidoDTO';
 import type { PartidoRaw } from '../ports/IPartidoRepository';
 
 export class PartidosService {
-  private colores = [
-    'from-blue-500 to-blue-600',
-    'from-red-500 to-red-600',
-    'from-green-500 to-green-600',
-    'from-purple-500 to-purple-600',
-    'from-orange-500 to-orange-600',
-    'from-pink-500 to-pink-600',
-    'from-indigo-500 to-indigo-600',
-    'from-teal-500 to-teal-600',
-  ];
+  /**
+   * Convierte hex color a gradiente de Tailwind
+   * @param hexColor - Color en formato hex (#RRGGBB)
+   * @returns Clase de gradiente de Tailwind o fallback
+   */
+  private hexToGradient(hexColor: string): string {
+    // Mapeo básico de colores comunes
+    const colorMap: Record<string, string> = {
+      '#0000ff': 'from-blue-500 to-blue-700',
+      '#ff0000': 'from-red-500 to-red-700',
+      '#00ff00': 'from-green-500 to-green-700',
+      '#ffff00': 'from-yellow-400 to-yellow-600',
+      '#ff00ff': 'from-pink-500 to-pink-700',
+      '#00ffff': 'from-cyan-500 to-cyan-700',
+      '#ffa500': 'from-orange-500 to-orange-700',
+      '#800080': 'from-purple-500 to-purple-700',
+    };
+
+    const normalized = hexColor.toLowerCase();
+    return colorMap[normalized] || 'from-gray-500 to-gray-700';
+  }
 
   /**
-   * Agrupa raw data de partidos y transforma a DTOs
+   * Transforma datos raw de partidos a DTOs
    * @param partidosRaw - Array de datos raw de partidos desde repository
    * @returns Array de PartidoDTO ordenados por total de diputados
    */
   convertirAPartidoDTOs(partidosRaw: PartidoRaw[]): PartidoDTO[] {
-    // 1. Agrupamiento - lógica de negocio
-    const mapa = new Map<string, number>();
-    partidosRaw.forEach(row => {
-      const partido = row.partido_politico || 'Sin Partido';
-      mapa.set(partido, (mapa.get(partido) || 0) + 1);
-    });
-
-    // 2. Transformación a DTOs
-    return Array.from(mapa.entries())
-      .map(([nombre, total], index) => ({
-        nombre,
-        slug: encodeURIComponent(nombre),
-        totalDiputados: total,
-        colorGradient: this.colores[index % this.colores.length],
+    return partidosRaw
+      .map(partido => ({
+        id: partido.id,
+        nombre: partido.nombre,
+        prefijo: partido.prefijo,
+        slug: partido.prefijo.toLowerCase().replace(/\s+/g, '-'),
+        color: partido.color,
+        logoUrl: partido.logo_url ? `https://www.congreso.gob.gt/uploads/bloques/${partido.logo_url}` : null,
+        totalDiputados: partido.total_diputados || 0,
+        colorGradient: this.hexToGradient(partido.color),
+        redesSociales: {
+          facebook: partido.facebook,
+          twitter: partido.twitter,
+          instagram: partido.instagram,
+          youtube: partido.youtube,
+          website: partido.sitio_web,
+        },
       }))
       .sort((a, b) => b.totalDiputados - a.totalDiputados);
   }
@@ -43,12 +57,6 @@ export class PartidosService {
    * @returns Array de nombres de partidos únicos
    */
   extraerNombresUnicos(partidosRaw: PartidoRaw[]): string[] {
-    const partidos = new Set<string>();
-    
-    partidosRaw.forEach(row => {
-      if (row.partido_politico) partidos.add(row.partido_politico);
-    });
-
-    return Array.from(partidos);
+    return partidosRaw.map(p => p.nombre).sort();
   }
 }

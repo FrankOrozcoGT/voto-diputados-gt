@@ -31,12 +31,25 @@ const { diputado } = Astro.props;
       <h3 class="text-lg font-semibold text-gray-900 mb-1 truncate">
         {diputado.nombreCompleto}
       </h3>
-      <p class="text-sm font-medium text-blue-600 mb-1">
-        {diputado.partido}
-      </p>
+      <div class="flex items-center gap-2 mb-1">
+        <span 
+          class="text-xs font-bold px-2 py-0.5 rounded text-white"
+          style={`background-color: ${diputado.partido.color}`}
+        >
+          {diputado.partido.prefijo}
+        </span>
+        <span class="text-sm font-medium text-gray-700">
+          {diputado.partido.nombre}
+        </span>
+      </div>
       <p class="text-sm text-gray-500 truncate">
         {diputado.ubicacion}
       </p>
+      {diputado.cargoBloque && (
+        <p class="text-xs text-gray-400 mt-1">
+          {diputado.cargoBloque}
+        </p>
+      )}
     </div>
   </div>
 </div>

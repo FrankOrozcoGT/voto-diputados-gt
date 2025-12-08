@@ -2,24 +2,25 @@
 import AuthenticatedLayout from '@/layouts/AuthenticatedLayout.astro';
 import DiputadoCard from '@/features/diputados/_components/_DiputadoCard.astro';
 import { useDiputadosPorPartido } from '@/features/diputados/_hooks/_useDiputados';
-import { useNombresPartidos } from '@/features/partidos/_hooks/_usePartidos';
+import { usePartidos } from '@/features/partidos/_hooks/_usePartidos';
 
 export async function getStaticPaths() {
-  const { nombres } = await useNombresPartidos();
+  const { partidos } = await usePartidos();
 
-  return nombres.map(partido => ({
-    params: { slug: encodeURIComponent(partido) },
+  return partidos.map(partido => ({
+    params: { slug: partido.slug },
+    props: { partido }
   }));
 }
 
 const { slug } = Astro.params;
-const nombrePartido = decodeURIComponent(slug || '');
+const { partido } = Astro.props;
 
-const { diputados } = await useDiputadosPorPartido(nombrePartido);
+const { diputados } = await useDiputadosPorPartido(slug);
 let error: string | null = null;
 ---
 
-<AuthenticatedLayout title={nombrePartido}>
+<AuthenticatedLayout title={partido.nombre}>
     <main class="container mx-auto px-4 py-8 max-w-7xl">
       <header class="mb-12">
         <div class="mb-6">
@@ -28,11 +29,22 @@ let error: string | null = null;
             <span class="ml-2">Volver a partidos</span>
           </a>
         </div>
-        <div class="bg-gradient-to-r from-blue-600 to-indigo-600 rounded-2xl shadow-xl p-8 text-white">
-          <h1 class="text-3xl md:text-4xl font-bold mb-2">
-            {nombrePartido}
+        <div 
+          class={`bg-gradient-to-r ${partido.colorGradient} rounded-2xl shadow-xl p-8 text-white relative overflow-hidden`}
+        >
+          {partido.logoUrl && (
+            <div class="absolute top-4 right-4 w-24 h-24 bg-white rounded-full p-3 opacity-90">
+              <img src={partido.logoUrl} alt={`Logo ${partido.prefijo}`} class="w-full h-full object-contain" />
+            </div>
+          )}
+          
+          <div class="mb-2">
+            <span class="text-sm font-semibold bg-white/20 px-3 py-1 rounded-full">{partido.prefijo}</span>
+          </div>
+          <h1 class="text-3xl md:text-4xl font-bold mb-2 pr-28">
+            {partido.nombre}
           </h1>
-          <p class="text-blue-100 text-lg">
+          <p class="text-white/90 text-lg">
             {diputados.length} {diputados.length === 1 ? 'diputado' : 'diputados'} en el Congreso
           </p>
         </div>
@@ -52,7 +64,7 @@ let error: string | null = null;
                 No hay diputados para este partido
               </h2>
               <p class="text-gray-500 mb-6">
-                No se encontraron diputados activos del partido {nombrePartido}
+                No se encontraron diputados activos del partido {partido.nombre}
               </p>
               <a 
                 href="/partidos" 

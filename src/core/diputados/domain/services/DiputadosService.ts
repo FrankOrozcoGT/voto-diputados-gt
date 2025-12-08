@@ -6,12 +6,28 @@ export class DiputadosService {
       id: raw.id,
       nombreCompleto: this.formatearNombreCompleto(raw.nombre, raw.apellidos),
       iniciales: this.generarIniciales(raw.nombre, raw.apellidos),
-      partido: raw.partido_politico,
+      partido: {
+        id: raw.partidos?.id || raw.partido_id,
+        nombre: raw.partidos?.nombre || 'Independiente',
+        prefijo: raw.partidos?.prefijo || 'IND',
+        color: raw.partidos?.color || '#808080',
+        slug: (raw.partidos?.prefijo || 'ind').toLowerCase().replace(/\s+/g, '-'),
+      },
       ubicacion: this.formatearUbicacion(raw.distrito, raw.departamento),
       numeroLista: raw.numero_lista,
       fotoUrl: raw.foto_url,
-      email: raw.email,
-      telefono: raw.telefono,
+      contacto: {
+        whatsapp: raw.whatsapp,
+        facebook: raw.facebook,
+        twitter: raw.twitter,
+        instagram: raw.instagram,
+      },
+      datosPersonales: {
+        fechaNacimiento: raw.fecha_nacimiento,
+        edad: raw.edad,
+        cvUrl: raw.cv_url,
+      },
+      cargoBloque: raw.cargo_bloque,
     };
   }
 
