@@ -22,6 +22,9 @@ export function Header() {
             <a href="/partidos" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">
               Partidos
             </a>
+            <a href="/votaciones" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">
+              Votaciones
+            </a>
           </nav>
 
           {/* Usuario */}
