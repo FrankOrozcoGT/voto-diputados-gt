@@ -1,0 +1,112 @@
+---
+import AuthenticatedLayout from '@/layouts/AuthenticatedLayout.astro';
+import { supabase } from '@/lib/supabase';
+
+// Obtener sesiones de votación ordenadas por fecha
+const { data: sesiones, error } = await supabase
+  .from('sesiones_votacion')
+  .select('*')
+  .order('fecha', { ascending: false })
+  .limit(50);
+
+if (error) {
+  console.error('Error al cargar sesiones:', error);
+}
+---
+
+<AuthenticatedLayout title="Votaciones del Congreso">
+  <main class="container mx-auto px-4 py-8 max-w-6xl">
+    <header class="mb-12">
+      <h1 class="text-4xl md:text-5xl font-bold text-gray-900 text-center mb-4">
+        📊 Votaciones del Congreso
+      </h1>
+      <p class="text-xl text-gray-600 text-center max-w-2xl mx-auto">
+        Consulta las sesiones y votaciones realizadas en el Congreso de la República
+      </p>
+    </header>
+
+    {error && (
+      <div class="bg-red-50 border border-red-200 text-red-800 px-4 py-3 rounded-lg mb-8">
+        Error al cargar las sesiones: {error.message}
+      </div>
+    )}
+
+    {!error && (!sesiones || sesiones.length === 0) && (
+      <div class="bg-blue-50 border border-blue-200 text-blue-800 px-6 py-8 rounded-lg text-center">
+        <p class="text-lg mb-2">📋 No hay sesiones de votación registradas</p>
+        <p class="text-sm">Las sesiones aparecerán aquí una vez que se importen los datos.</p>
+      </div>
+    )}
+
+    {sesiones && sesiones.length > 0 && (
+      <div class="space-y-6">
+        {sesiones.map((sesion) => (
+          <div class="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow p-6">
+            <div class="flex items-start justify-between mb-4">
+              <div class="flex-1">
+                <div class="flex items-center gap-3 mb-2">
+                  <span class="inline-block px-3 py-1 text-sm font-semibold rounded-full bg-blue-100 text-blue-800">
+                    {sesion.tipo_sesion}
+                  </span>
+                  <span class="text-sm text-gray-500">
+                    Sesión #{sesion.numero}
+                  </span>
+                </div>
+                <h2 class="text-xl font-bold text-gray-900 mb-2">
+                  {sesion.descripcion}
+                </h2>
+                <p class="text-sm text-gray-600">
+                  {new Date(sesion.fecha).toLocaleDateString('es-GT', {
+                    weekday: 'long',
+                    year: 'numeric',
+                    month: 'long',
+                    day: 'numeric',
+                    hour: '2-digit',
+                    minute: '2-digit'
+                  })}
+                </p>
+              </div>
+              
+              {sesion.activa && (
+                <span class="inline-block px-3 py-1 text-xs font-semibold rounded-full bg-green-100 text-green-800">
+                  Activa
+                </span>
+              )}
+            </div>
+
+            {sesion.fase && (
+              <div class="mb-4">
+                <p class="text-sm text-gray-600">
+                  <span class="font-semibold">Fase:</span> {sesion.fase}
+                </p>
+              </div>
+            )}
+
+            <div class="flex gap-3">
+              <a 
+                href={`/votaciones/${sesion.id}`}
+                class="inline-block px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-lg transition-colors"
+              >
+                Ver Votaciones
+              </a>
+              {sesion.url_votaciones && (
+                <a 
+                  href={sesion.url_votaciones}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="inline-block px-4 py-2 bg-gray-200 hover:bg-gray-300 text-gray-800 font-medium rounded-lg transition-colors"
+                >
+                  Ver en Congreso →
+                </a>
+              )}
+            </div>
+          </div>
+        ))}
+      </div>
+    )}
+
+    <footer class="text-center mt-16 text-gray-600">
+      <p>&copy; {new Date().getFullYear()} Congreso de la República de Guatemala</p>
+    </footer>
+  </main>
+</AuthenticatedLayout>
