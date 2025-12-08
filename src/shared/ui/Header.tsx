@@ -1,4 +1,5 @@
 import { useAuthStore } from '@/features/auth/_stores/authStore';
+import { UserDropdown } from './UserDropdown';
 
 export function Header() {
   const session = useAuthStore((state) => state.session);
@@ -24,22 +25,13 @@ export function Header() {
           </nav>
 
           {/* Usuario */}
-          <div className="flex items-center gap-3">
-            {session?.user.avatarUrl ? (
-              <img 
-                src={session.user.avatarUrl} 
-                alt={session.user.name}
-                className="w-8 h-8 rounded-full object-cover"
-              />
-            ) : (
-              <div className="w-8 h-8 rounded-full bg-blue-600 flex items-center justify-center text-white text-sm font-semibold">
-                {session?.user.name?.split(' ').map(n => n[0]).join('').slice(0, 2).toUpperCase() || 'U'}
-              </div>
-            )}
-            <span className="text-sm font-medium text-gray-700">
-              {session?.user.name || 'Usuario'}
-            </span>
-          </div>
+          {session?.user && (
+            <UserDropdown
+              userName={session.user.name || 'Usuario'}
+              userEmail={session.user.email}
+              avatarUrl={session.user.avatarUrl}
+            />
+          )}
         </div>
       </div>
     </header>
