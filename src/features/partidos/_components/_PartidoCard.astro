@@ -1,6 +1,6 @@
 ---
 import type { PartidoDTO } from '../../../core/partidos/application/dtos/PartidoDTO';
-import { getPartidoUrl, getGradientClasses, formatCantidadDiputados } from './_PartidoCard';
+import { getPartidoUrl, formatCantidadDiputados } from './_PartidoCard';
 
 interface Props {
   partido: PartidoDTO;
@@ -11,7 +11,8 @@ const { partido } = Astro.props;
 
 <a 
   href={getPartidoUrl(partido)}
-  class={`block ${getGradientClasses(partido)} rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 p-8 text-white hover:scale-105 relative overflow-hidden`}
+  class="block rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 p-8 text-white hover:scale-105 relative overflow-hidden"
+  style={partido.colorGradient}
 >
   {partido.logoUrl && (
     <div class="absolute top-4 right-4 w-16 h-16 bg-white rounded-full p-2 opacity-90">

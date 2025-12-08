@@ -7,7 +7,23 @@ export class DiputadoRepositoryImpl implements IDiputadoRepository {
     const { data, error } = await supabase
       .from('diputados')
       .select(`
-        *,
+        id,
+        nombre,
+        apellidos,
+        partido_id,
+        distrito,
+        departamento,
+        numero_lista,
+        foto_url,
+        whatsapp,
+        facebook,
+        twitter,
+        instagram,
+        fecha_nacimiento,
+        edad,
+        cv_url,
+        cargo_bloque,
+        activo,
         partidos!inner (
           id,
           nombre,
@@ -27,7 +43,23 @@ export class DiputadoRepositoryImpl implements IDiputadoRepository {
     const { data, error } = await supabase
       .from('diputados')
       .select(`
-        *,
+        id,
+        nombre,
+        apellidos,
+        partido_id,
+        distrito,
+        departamento,
+        numero_lista,
+        foto_url,
+        whatsapp,
+        facebook,
+        twitter,
+        instagram,
+        fecha_nacimiento,
+        edad,
+        cv_url,
+        cargo_bloque,
+        activo,
         partidos (
           id,
           nombre,

@@ -15,7 +15,7 @@ export class DiputadosService {
       },
       ubicacion: this.formatearUbicacion(raw.distrito, raw.departamento),
       numeroLista: raw.numero_lista,
-      fotoUrl: raw.foto_url,
+      fotoUrl: raw.foto_url ? `https://www.congreso.gob.gt/assets/uploads/diputados/${raw.foto_url}` : undefined,
       contacto: {
         whatsapp: raw.whatsapp,
         facebook: raw.facebook,
