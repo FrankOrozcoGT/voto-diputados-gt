@@ -1,26 +1,9 @@
 ---
-import { SessionGuard } from '@/features/auth/components/SessionGuard';
-import { LogoutButtonWrapper } from '@/features/auth/components/LogoutButtonWrapper';
-import '../styles/global.css';
+import AuthenticatedLayout from '@/layouts/AuthenticatedLayout.astro';
 ---
 
-<html lang="es">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Diputados Guatemala - Directorio Oficial</title>
-		<meta name="description" content="Directorio oficial de diputados del Congreso de la República de Guatemala. Información actualizada de representantes por distrito y partido político." />
-	</head>
-	<body class="bg-gradient-to-br from-blue-50 to-indigo-100 min-h-screen">
-		<SessionGuard client:only="react">
-		<div class="container mx-auto px-4 py-4">
-			<div class="flex justify-end">
-				<LogoutButtonWrapper client:load />
-			</div>
-		</div>
-		<main class="container mx-auto px-4 py-16">
+<AuthenticatedLayout title="Inicio">
+	<main class="container mx-auto px-4 py-16">
 			<div class="text-center mb-16">
 				<div class="mb-8">
 					<span class="text-6xl">🏛️</span>
@@ -77,10 +60,8 @@ import '../styles/global.css';
 				</div>
 			</div>
 
-			<footer class="text-center mt-16 text-gray-600">
-				<p>&copy; {new Date().getFullYear()} Congreso de la República de Guatemala</p>
-			</footer>
-		</main>
-		</SessionGuard>
-	</body>
-</html>
+		<footer class="text-center mt-16 text-gray-600">
+			<p>&copy; {new Date().getFullYear()} Congreso de la República de Guatemala</p>
+		</footer>
+	</main>
+</AuthenticatedLayout>

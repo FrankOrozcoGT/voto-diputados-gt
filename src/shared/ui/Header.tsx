@@ -25,12 +25,16 @@ export function Header() {
 
           {/* Usuario */}
           <div className="flex items-center gap-3">
-            {session?.user.avatarUrl && (
+            {session?.user.avatarUrl ? (
               <img 
                 src={session.user.avatarUrl} 
                 alt={session.user.name}
-                className="w-8 h-8 rounded-full"
+                className="w-8 h-8 rounded-full object-cover"
               />
+            ) : (
+              <div className="w-8 h-8 rounded-full bg-blue-600 flex items-center justify-center text-white text-sm font-semibold">
+                {session?.user.name?.split(' ').map(n => n[0]).join('').slice(0, 2).toUpperCase() || 'U'}
+              </div>
             )}
             <span className="text-sm font-medium text-gray-700">
               {session?.user.name || 'Usuario'}
