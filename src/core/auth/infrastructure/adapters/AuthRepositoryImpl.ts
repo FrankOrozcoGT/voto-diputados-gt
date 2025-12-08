@@ -10,10 +10,11 @@ export interface IAuthRepository {
 
 export class AuthRepositoryImpl implements IAuthRepository {
   async signInWithGoogle(): Promise<void> {
+    const siteUrl = import.meta.env.PUBLIC_SITE_URL || window.location.origin;
     const { error } = await supabase.auth.signInWithOAuth({
       provider: 'google',
       options: {
-        redirectTo: `${window.location.origin}/auth/callback`,
+        redirectTo: `${siteUrl}/auth/callback`,
       },
     });
 
