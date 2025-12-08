@@ -1,24 +1,14 @@
 ---
-import { SessionGuard } from '@/features/auth/components/SessionGuard';
+import AuthenticatedLayout from '@/layouts/AuthenticatedLayout.astro';
 import { usePartidos } from '@/features/partidos/_hooks/_usePartidos';
 import PartidoCard from '@/features/partidos/_components/_PartidoCard.astro';
-import '@/styles/global.css';
 
 const { partidos } = await usePartidos();
 let error: string | null = null;
 
 ---
 
-<html lang="es">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Partidos Políticos - Diputados Guatemala</title>
-    <meta name="description" content="Listado de partidos políticos representados en el Congreso de Guatemala." />
-  </head>
-  <body class="bg-gray-50 min-h-screen">
-    <SessionGuard client:only="react">
+<AuthenticatedLayout title="Partidos Políticos">
     <main class="container mx-auto px-4 py-8 max-w-6xl">
       <header class="mb-12">
         <div class="text-center mb-6">
@@ -49,6 +39,4 @@ let error: string | null = null;
         <p>&copy; {new Date().getFullYear()} Congreso de la República de Guatemala</p>
       </footer>
     </main>
-    </SessionGuard>
-  </body>
-</html>
+</AuthenticatedLayout>

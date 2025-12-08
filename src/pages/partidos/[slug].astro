@@ -1,9 +1,8 @@
 ---
-import { SessionGuard } from '@/features/auth/components/SessionGuard';
+import AuthenticatedLayout from '@/layouts/AuthenticatedLayout.astro';
 import DiputadoCard from '@/features/diputados/_components/_DiputadoCard.astro';
 import { useDiputadosPorPartido } from '@/features/diputados/_hooks/_useDiputados';
 import { useNombresPartidos } from '@/features/partidos/_hooks/_usePartidos';
-import '@/styles/global.css';
 
 export async function getStaticPaths() {
   const { nombres } = await useNombresPartidos();
@@ -20,16 +19,7 @@ const { diputados } = await useDiputadosPorPartido(nombrePartido);
 let error: string | null = null;
 ---
 
-<html lang="es">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{nombrePartido} - Diputados Guatemala</title>
-    <meta name="description" content={`Diputados del partido ${nombrePartido} en el Congreso de Guatemala.`} />
-  </head>
-  <body class="bg-gray-50 min-h-screen">
-    <SessionGuard client:only="react">
+<AuthenticatedLayout title={nombrePartido}>
     <main class="container mx-auto px-4 py-8 max-w-7xl">
       <header class="mb-12">
         <div class="mb-6">
@@ -87,6 +77,4 @@ let error: string | null = null;
         <p>&copy; {new Date().getFullYear()} Congreso de la República de Guatemala</p>
       </footer>
     </main>
-    </SessionGuard>
-  </body>
-</html>
+</AuthenticatedLayout>
