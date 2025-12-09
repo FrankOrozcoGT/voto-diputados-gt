@@ -1,0 +1,62 @@
+{
+  "votacionId": "48161",
+  "eventoId": "41230",
+  "sesion": {
+    "eventoId": "41230",
+    "tipo": "Ordinaria",
+    "numero": "40",
+    "descripcion": "No. 40, Fase 2, Fecha 08/10/2024 09:05:32",
+    "fecha": "08/10/2024"
+  },
+  "pregunta": "ELECCIÓN DE ERIC NEPTALI GODINEZ MIRANDA COMO MAGISTRADO TITULAR DE LA CORTE DE APELACIONES",
+  "iniciativa": null,
+  "votos": {
+    "favor": [
+      {
+        "nombre": "Blanco Lapola Orlando Joaquín",
+        "id_diputado": "18"
+      },
+      {
+        "nombre": "Chic Cardona José Alberto",
+        "id_diputado": "899"
+      },
+      {
+        "nombre": "De León Torres Lourdes Teresita",
+        "id_diputado": "940"
+      },
+      {
+        "nombre": "Flores Divas Jairo Joaquín",
+        "id_diputado": "61"
+      },
+      {
+        "nombre": "Pereira Delgado Rudy Berner",
+        "id_diputado": "117"
+      },
+      {
+        "nombre": "Preciado Navarijo Vivian Beatriz",
+        "id_diputado": "122"
+      },
+      {
+        "nombre": "Ramírez Retana Thelma Elizabeth",
+        "id_diputado": "126"
+      },
+      {
+        "nombre": "Solano José Carlo",
+        "id_diputado": "958"
+      },
+      {
+        "nombre": "Velásquez Bámaca Sabino Sebastián",
+        "id_diputado": "829"
+      }
+    ],
+    "contra": [],
+    "ausente": [],
+    "abstencion": []
+  },
+  "totales": {
+    "favor": 9,
+    "contra": 0,
+    "ausente": 0,
+    "abstencion": 0
+  }
+}

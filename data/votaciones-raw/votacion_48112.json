@@ -1,0 +1,91 @@
+{
+  "votacionId": "48112",
+  "eventoId": "41230",
+  "sesion": {
+    "eventoId": "41230",
+    "tipo": "Ordinaria",
+    "numero": "40",
+    "descripcion": "No. 40, Fase 2, Fecha 08/10/2024 09:05:32",
+    "fecha": "08/10/2024"
+  },
+  "pregunta": "ELECCIÓN DE BELTER RODOLFO MANCILLA SOLARES COMO MAGISTRADO TITULAR DE LA CORTE DE APELACIONES",
+  "iniciativa": null,
+  "votos": {
+    "favor": [
+      {
+        "nombre": "Castillo Martínez José Inés",
+        "id_diputado": "30"
+      },
+      {
+        "nombre": "Celis Navas Sergio Leonel",
+        "id_diputado": "31"
+      },
+      {
+        "nombre": "Escobar Castillo Kevyn Luis Carlo",
+        "id_diputado": "926"
+      },
+      {
+        "nombre": "Estrada Domínguez Julio Héctor",
+        "id_diputado": "930"
+      },
+      {
+        "nombre": "Lam Ruano Francisco Vitelio",
+        "id_diputado": "86"
+      },
+      {
+        "nombre": "Mendoza Franco José Pablo",
+        "id_diputado": "893"
+      },
+      {
+        "nombre": "Nicolás Segundo Martín",
+        "id_diputado": "806"
+      },
+      {
+        "nombre": "Orellana Sandoval Jairo Danilo",
+        "id_diputado": "923"
+      },
+      {
+        "nombre": "Ovalle Barrios Rolando Miguel",
+        "id_diputado": "953"
+      },
+      {
+        "nombre": "Paz Rosales Karina Alexandra",
+        "id_diputado": "160"
+      },
+      {
+        "nombre": "Pereira Delgado Rudy Berner",
+        "id_diputado": "117"
+      },
+      {
+        "nombre": "Ralda Conde Guillermo Antonio",
+        "id_diputado": "957"
+      },
+      {
+        "nombre": "Reyes Lee Fidel",
+        "id_diputado": "128"
+      },
+      {
+        "nombre": "Solórzano Quevedo Raúl Antonio",
+        "id_diputado": "875"
+      },
+      {
+        "nombre": "Valenzuela Argueta Victor Alfredo",
+        "id_diputado": "947"
+      }
+    ],
+    "contra": [],
+    "ausente": [
+      {
+        "nombre": "Preciado Navarijo Vivian Beatriz",
+        "id_diputado": "122"
+      }
+    ],
+    "abstencion": []
+  },
+  "totales": {
+    "favor": 15,
+    "contra": 0,
+    "ausente": 1,
+    "abstencion": 0
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "votacionId": "47081",
+  "eventoId": "41178",
+  "sesion": {
+    "eventoId": "41178",
+    "tipo": "Ordinaria",
+    "numero": "10",
+    "descripcion": "No. 10, Fase 1, Fecha 20/02/2024 01:02:22",
+    "fecha": "20/02/2024"
+  },
+  "pregunta": "ELECCIÓN DE JULIO ENRIQUE RICARDO DOUGHERTY LIEKENS COMO MAGISTRADO SUPLENTE DEL TRIBUNAL SUPREMO ELECTORAL",
+  "iniciativa": null,
+  "votos": {
+    "favor": [
+      {
+        "nombre": "Alejos Lorenzana Felipe",
+        "id_diputado": "2"
+      },
+      {
+        "nombre": "Arzú Escobar Alvaro Enrique",
+        "id_diputado": "11"
+      },
+      {
+        "nombre": "Flores Divas Jairo Joaquín",
+        "id_diputado": "61"
+      },
+      {
+        "nombre": "García García Cornelio Gonzalo",
+        "id_diputado": "65"
+      },
+      {
+        "nombre": "López Escobar Julio César",
+        "id_diputado": "789"
+      },
+      {
+        "nombre": "Marroquín Godoy de Palomo Ana Lucrecia",
+        "id_diputado": "179"
+      },
+      {
+        "nombre": "Rodríguez Palacios Byron Bladimiro",
+        "id_diputado": "952"
+      },
+      {
+        "nombre": "Solórzano Quevedo Raúl Antonio",
+        "id_diputado": "875"
+      },
+      {
+        "nombre": "Villagrán Alvarez Jorge Mario",
+        "id_diputado": "928"
+      },
+      {
+        "nombre": "Zepeda Zepeda Marvin Adrian",
+        "id_diputado": "927"
+      }
+    ],
+    "contra": [],
+    "ausente": [
+      {
+        "nombre": "Cardona Arreaga de Pojoy Karla Betzaida",
+        "id_diputado": "919"
+      },
+      {
+        "nombre": "De León De León de Pérez Greicy Domenica",
+        "id_diputado": "895"
+      },
+      {
+        "nombre": "Galindo De León José Luis",
+        "id_diputado": "819"
+      },
+      {
+        "nombre": "Gómez Gómez Julio Pedro",
+        "id_diputado": "971"
+      },
+      {
+        "nombre": "Lam Ruano Francisco Vitelio",
+        "id_diputado": "86"
+      },
+      {
+        "nombre": "Rivera Estévez Juan Carlos",
+        "id_diputado": "857"
+      },
+      {
+        "nombre": "Rivera Zaldaña  Shirley Joanna",
+        "id_diputado": "785"
+      }
+    ],
+    "abstencion": []
+  },
+  "totales": {
+    "favor": 10,
+    "contra": 0,
+    "ausente": 7,
+    "abstencion": 0
+  },
+  "diputados_sin_id": [
+    "Orantes Thomas Ana Patricia",
+    "Tzun De León Erick José"
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "votacionId": "48077",
+  "eventoId": "41230",
+  "sesion": {
+    "eventoId": "41230",
+    "tipo": "Ordinaria",
+    "numero": "40",
+    "descripcion": "No. 40, Fase 2, Fecha 08/10/2024 09:05:32",
+    "fecha": "08/10/2024"
+  },
+  "pregunta": "ELECCIÓN DE ELISA VICTORIA PELLECER QUIJADA COMO MAGISTRADO TITULAR DE LA CORTE DE APELACIONES",
+  "iniciativa": null,
+  "votos": {
+    "favor": [
+      {
+        "nombre": "Calderon Galvez Carlos Roberto",
+        "id_diputado": "774"
+      },
+      {
+        "nombre": "Chic Cardona José Alberto",
+        "id_diputado": "899"
+      },
+      {
+        "nombre": "Enriquez Garzaro Sergio Guillermo",
+        "id_diputado": "941"
+      },
+      {
+        "nombre": "España Cáceres Boris Roberto",
+        "id_diputado": "54"
+      },
+      {
+        "nombre": "Marroquín Godoy de Palomo Ana Lucrecia",
+        "id_diputado": "179"
+      },
+      {
+        "nombre": "Martínez Herrera Joél Rubén",
+        "id_diputado": "99"
+      },
+      {
+        "nombre": "Martínez Juárez Christian Joél",
+        "id_diputado": "921"
+      },
+      {
+        "nombre": "Matías Santiago Marleni Lineth",
+        "id_diputado": "100"
+      },
+      {
+        "nombre": "Ovalle Barrios Rolando Miguel",
+        "id_diputado": "953"
+      },
+      {
+        "nombre": "Ramírez Retana Thelma Elizabeth",
+        "id_diputado": "126"
+      },
+      {
+        "nombre": "Solano José Carlo",
+        "id_diputado": "958"
+      },
+      {
+        "nombre": "Villagrán Alvarez Jorge Mario",
+        "id_diputado": "928"
+      }
+    ],
+    "contra": [],
+    "ausente": [],
+    "abstencion": []
+  },
+  "totales": {
+    "favor": 12,
+    "contra": 0,
+    "ausente": 0,
+    "abstencion": 0
+  }
+}

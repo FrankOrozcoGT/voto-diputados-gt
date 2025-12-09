@@ -1,0 +1,375 @@
+{
+  "votacionId": "49712",
+  "eventoId": "41306",
+  "sesion": {
+    "eventoId": "41306",
+    "tipo": "Ordinaria",
+    "numero": "41",
+    "descripcion": "No. 41, Fase 1, Fecha 21/10/2025 12:55:27",
+    "fecha": "21/10/2025"
+  },
+  "pregunta": "APROBACIÓN DE MOCIÓN PRIVILEGIADA VERBAL PARA ALTERAR EL ORDEN DEL DÍA (REPRESENTANTE CELIS)",
+  "iniciativa": null,
+  "votos": {
+    "favor": [
+      {
+        "nombre": "Aguirre Estrada Luis Fernando",
+        "id_diputado": "929"
+      },
+      {
+        "nombre": "Alvarez y Alvarez Cristian Rodolfo",
+        "id_diputado": "851"
+      },
+      {
+        "nombre": "Archila Cordón Manuel de Jesús",
+        "id_diputado": "907"
+      },
+      {
+        "nombre": "Arévalo Avila Sherol Ivanisse",
+        "id_diputado": "972"
+      },
+      {
+        "nombre": "Ayala Marroquin Jorge Estuardo",
+        "id_diputado": "918"
+      },
+      {
+        "nombre": "Barrera Villanueva León Felipe",
+        "id_diputado": "915"
+      },
+      {
+        "nombre": "Bonilla González Víctor Vicente",
+        "id_diputado": "891"
+      },
+      {
+        "nombre": "Bran Colindres Ernesto",
+        "id_diputado": "900"
+      },
+      {
+        "nombre": "Cáceres Gamarro Luis Antonio",
+        "id_diputado": "908"
+      },
+      {
+        "nombre": "Castellanos Caal Román Wilfredo",
+        "id_diputado": "831"
+      },
+      {
+        "nombre": "Castro Delgado Jorge Romeo",
+        "id_diputado": "842"
+      },
+      {
+        "nombre": "Celis Navas Sergio Leonel",
+        "id_diputado": "31"
+      },
+      {
+        "nombre": "Chic Cardona José Alberto",
+        "id_diputado": "899"
+      },
+      {
+        "nombre": "Chocooj de la Cruz Bequer Neftali",
+        "id_diputado": "965"
+      },
+      {
+        "nombre": "Cifuentes Ovalle Pablo Leonel",
+        "id_diputado": "888"
+      },
+      {
+        "nombre": "Contreras Colíndres Luis Alberto",
+        "id_diputado": "39"
+      },
+      {
+        "nombre": "Cuá Tumín Raúl Arnulfo",
+        "id_diputado": "889"
+      },
+      {
+        "nombre": "Dávila Córdova César Roberto",
+        "id_diputado": "906"
+      },
+      {
+        "nombre": "De León Benítez Alberto Eduardo",
+        "id_diputado": "970"
+      },
+      {
+        "nombre": "Díaz Mazariegos Gerardín Ariel",
+        "id_diputado": "818"
+      },
+      {
+        "nombre": "Echeverría Casado Herman Otoniel",
+        "id_diputado": "884"
+      },
+      {
+        "nombre": "Escobar Castillo Kevyn Luis Carlo",
+        "id_diputado": "926"
+      },
+      {
+        "nombre": "Fión Morales César Augusto",
+        "id_diputado": "796"
+      },
+      {
+        "nombre": "Galindo de León José Luis",
+        "id_diputado": "819"
+      },
+      {
+        "nombre": "Gálvez Muñóz  Mario Ernesto",
+        "id_diputado": "870"
+      },
+      {
+        "nombre": "García Barrios José Arnulfo",
+        "id_diputado": "788"
+      },
+      {
+        "nombre": "Godoy Palala Mirna Victoria",
+        "id_diputado": "909"
+      },
+      {
+        "nombre": "Gómez Gómez Julio Pedro",
+        "id_diputado": "971"
+      },
+      {
+        "nombre": "Guardado Linares de Nájera Mercedes Cristabel",
+        "id_diputado": "904"
+      },
+      {
+        "nombre": "Guerrero de la Cruz Alma Luz",
+        "id_diputado": "935"
+      },
+      {
+        "nombre": "Gutierrez Raguay Sonia Marina",
+        "id_diputado": "861"
+      },
+      {
+        "nombre": "Guzmán Figueroa Rolando",
+        "id_diputado": "902"
+      },
+      {
+        "nombre": "Illescas Sandoval David Mauricio",
+        "id_diputado": "910"
+      },
+      {
+        "nombre": "Jovel Polanco Sandra Erica",
+        "id_diputado": "898"
+      },
+      {
+        "nombre": "Leal Gómez Candido Fernando",
+        "id_diputado": "780"
+      },
+      {
+        "nombre": "Lima Pop Fidencio",
+        "id_diputado": "247"
+      },
+      {
+        "nombre": "López Escobar Julio César",
+        "id_diputado": "789"
+      },
+      {
+        "nombre": "López Girón Carlos Enrique",
+        "id_diputado": "976"
+      },
+      {
+        "nombre": "López Maldonado Carlos Enrique",
+        "id_diputado": "92"
+      },
+      {
+        "nombre": "Luján Padilla Ivanna María",
+        "id_diputado": "911"
+      },
+      {
+        "nombre": "Madrazo Mazariegos Danilo",
+        "id_diputado": "967"
+      },
+      {
+        "nombre": "Maldonado Molina Ervin Adim",
+        "id_diputado": "95"
+      },
+      {
+        "nombre": "Martínez Herrera Joél Rubén",
+        "id_diputado": "99"
+      },
+      {
+        "nombre": "Mazariegos López Nery René",
+        "id_diputado": "845"
+      },
+      {
+        "nombre": "Mendoza Franco José Pablo",
+        "id_diputado": "893"
+      },
+      {
+        "nombre": "Milian Gomez Sandra Yanet",
+        "id_diputado": "886"
+      },
+      {
+        "nombre": "Motta Kolleff Elena Sofia",
+        "id_diputado": "897"
+      },
+      {
+        "nombre": "Obregón Castañeda Byron Alesky",
+        "id_diputado": "937"
+      },
+      {
+        "nombre": "Ochaeta Aguilar Ronalth Ivan",
+        "id_diputado": "912"
+      },
+      {
+        "nombre": "Orellana Sandoval Jairo Danilo",
+        "id_diputado": "923"
+      },
+      {
+        "nombre": "Pellecer Rodriguez  Rodrigo Antonio",
+        "id_diputado": "932"
+      },
+      {
+        "nombre": "Pereira Delgado Rudy Berner",
+        "id_diputado": "117"
+      },
+      {
+        "nombre": "Pérez Alvarez Samuel Andrés",
+        "id_diputado": "834"
+      },
+      {
+        "nombre": "Pérez Marroquín José Orlando",
+        "id_diputado": "951"
+      },
+      {
+        "nombre": "Portillo Paz Julio César",
+        "id_diputado": "974"
+      },
+      {
+        "nombre": "Ralda Conde Guillermo Antonio",
+        "id_diputado": "957"
+      },
+      {
+        "nombre": "Ramos y Ramos Nery Abilio",
+        "id_diputado": "925"
+      },
+      {
+        "nombre": "Reyes Lee Fidel",
+        "id_diputado": "128"
+      },
+      {
+        "nombre": "Reyes Zeceña Andrea María",
+        "id_diputado": "913"
+      },
+      {
+        "nombre": "Rivas García Juan Ramon",
+        "id_diputado": "811"
+      },
+      {
+        "nombre": "Rivera Zaldaña  Shirley Joanna",
+        "id_diputado": "785"
+      },
+      {
+        "nombre": "Rodas Méndez Nery Mamfredo",
+        "id_diputado": "931"
+      },
+      {
+        "nombre": "Salazar Cordero Faver Emilio",
+        "id_diputado": "924"
+      },
+      {
+        "nombre": "Salazar Samayoa Leopoldo",
+        "id_diputado": "822"
+      },
+      {
+        "nombre": "Samayoa Reyes Lucrecia Carola",
+        "id_diputado": "135"
+      },
+      {
+        "nombre": "Solano José Carlo",
+        "id_diputado": "958"
+      },
+      {
+        "nombre": "Tebelán Pantzay Marcos Eduardo",
+        "id_diputado": "955"
+      },
+      {
+        "nombre": "Tejeda Marroquín Byron Leonidas",
+        "id_diputado": "887"
+      },
+      {
+        "nombre": "Toledo Cruz José Diego",
+        "id_diputado": "960"
+      },
+      {
+        "nombre": "Velásquez Bámaca Sabino Sebastián",
+        "id_diputado": "829"
+      },
+      {
+        "nombre": "Villagrán Alvarez Jorge Mario",
+        "id_diputado": "928"
+      },
+      {
+        "nombre": "Villagrán Antón de Pantoja Andrea Beatríz",
+        "id_diputado": "155"
+      },
+      {
+        "nombre": "Villalta Pereira Olga Isabel",
+        "id_diputado": "977"
+      },
+      {
+        "nombre": "Zepeda Zepeda Marvin Adrián",
+        "id_diputado": "927"
+      }
+    ],
+    "contra": [],
+    "ausente": [
+      {
+        "nombre": "Ajcip Canel Hellen Magaly Alexándra",
+        "id_diputado": "840"
+      },
+      {
+        "nombre": "Alejos Lorenzana Felipe",
+        "id_diputado": "2"
+      },
+      {
+        "nombre": "Blanco Lapola Orlando Joaquín",
+        "id_diputado": "18"
+      },
+      {
+        "nombre": "Cardona Arreaga Karla Betzaida",
+        "id_diputado": "791"
+      },
+      {
+        "nombre": "Castillo Martínez José Inés",
+        "id_diputado": "30"
+      },
+      {
+        "nombre": "Cifuentes Navarro Gustavo Adolfo",
+        "id_diputado": "961"
+      },
+      {
+        "nombre": "Estrada Domínguez Julio Héctor",
+        "id_diputado": "930"
+      },
+      {
+        "nombre": "García García Cornelio Gonzalo",
+        "id_diputado": "65"
+      },
+      {
+        "nombre": "Javier Javier Esduín Jerson",
+        "id_diputado": "892"
+      },
+      {
+        "nombre": "Lucas Paz Darwin Alberto",
+        "id_diputado": "801"
+      },
+      {
+        "nombre": "Matías Santiago Marleni Lineth",
+        "id_diputado": "100"
+      },
+      {
+        "nombre": "Quezada Valdéz José Adolfo",
+        "id_diputado": "864"
+      },
+      {
+        "nombre": "Solórzano Quevedo Raúl Antonio",
+        "id_diputado": "875"
+      }
+    ],
+    "abstencion": []
+  },
+  "totales": {
+    "favor": 74,
+    "contra": 0,
+    "ausente": 13,
+    "abstencion": 0
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "votacionId": "49398",
+  "eventoId": "41286",
+  "sesion": {
+    "eventoId": "41286",
+    "tipo": "Ordinaria",
+    "numero": "23",
+    "descripcion": "No. 23, Fase 1, Fecha 12/08/2025 12:50:20",
+    "fecha": "12/08/2025"
+  },
+  "pregunta": "APROBACIÓN DE PROPUESTA PARA MODIFICAR EL ORDEN DEL DÍA (REPRESENTANTE MOTTA)",
+  "iniciativa": null,
+  "votos": {
+    "favor": [
+      {
+        "nombre": "Barrera Robles Raúl Amilcar",
+        "id_diputado": "894"
+      },
+      {
+        "nombre": "Cáceres Gamarro Luis Antonio",
+        "id_diputado": "908"
+      },
+      {
+        "nombre": "Castellanos Caal Román Wilfredo",
+        "id_diputado": "831"
+      },
+      {
+        "nombre": "Chic Cardona José Alberto",
+        "id_diputado": "899"
+      },
+      {
+        "nombre": "Corleto Rivera Oscar Rolando",
+        "id_diputado": "41"
+      },
+      {
+        "nombre": "Cuá Tumin Raúl Arnulfo",
+        "id_diputado": "889"
+      },
+      {
+        "nombre": "Fión Morales César Augusto",
+        "id_diputado": "796"
+      },
+      {
+        "nombre": "Flores Divas Jairo Joaquín",
+        "id_diputado": "61"
+      },
+      {
+        "nombre": "Gómez Gómez Julio Pedro",
+        "id_diputado": "971"
+      },
+      {
+        "nombre": "Gutierrez Raguay Sonia Marina",
+        "id_diputado": "861"
+      },
+      {
+        "nombre": "Illescas Sandoval David Mauricio",
+        "id_diputado": "910"
+      },
+      {
+        "nombre": "Luján Padilla Ivanna María",
+        "id_diputado": "911"
+      },
+      {
+        "nombre": "Maldonado Molina Ervin Adim",
+        "id_diputado": "95"
+      },
+      {
+        "nombre": "Marroquín Cordón Laura Fabiola",
+        "id_diputado": "895"
+      },
+      {
+        "nombre": "Milian Gomez Sandra Yanet",
+        "id_diputado": "886"
+      },
+      {
+        "nombre": "Motta Kolleff Elena Sofia",
+        "id_diputado": "897"
+      },
+      {
+        "nombre": "Obregón Castañeda Byron Alesky",
+        "id_diputado": "937"
+      },
+      {
+        "nombre": "Ochaeta Aguilar Ronalth Ivan",
+        "id_diputado": "912"
+      },
+      {
+        "nombre": "Pérez Alvarez Samuel Andrés",
+        "id_diputado": "834"
+      },
+      {
+        "nombre": "Pérez Marroquín José Orlando",
+        "id_diputado": "951"
+      },
+      {
+        "nombre": "Rivera Estevez Juan Carlos",
+        "id_diputado": "857"
+      },
+      {
+        "nombre": "Rosales Polanco Oswaldo",
+        "id_diputado": "874"
+      },
+      {
+        "nombre": "Velásquez Bámaca Sabino Sebastián",
+        "id_diputado": "829"
+      },
+      {
+        "nombre": "Villagrán Antón de Pantoja Andrea Beatríz",
+        "id_diputado": "155"
+      }
+    ],
+    "contra": [],
+    "ausente": [
+      {
+        "nombre": "Archila Cordón Manuel de Jesús",
+        "id_diputado": "907"
+      },
+      {
+        "nombre": "Contreras Colíndres Luis Alberto",
+        "id_diputado": "39"
+      },
+      {
+        "nombre": "Dávila Córdova César Roberto",
+        "id_diputado": "906"
+      },
+      {
+        "nombre": "Gálvez Muñóz  Mario Ernesto",
+        "id_diputado": "870"
+      },
+      {
+        "nombre": "García García Cornelio Gonzalo",
+        "id_diputado": "65"
+      },
+      {
+        "nombre": "Guardado Linares de Nájera Mercedes Cristabel",
+        "id_diputado": "904"
+      },
+      {
+        "nombre": "Jovel Polanco Sandra Erica",
+        "id_diputado": "898"
+      },
+      {
+        "nombre": "Lam Ruano Francisco Vitelio",
+        "id_diputado": "86"
+      },
+      {
+        "nombre": "Lima Pop Fidencio",
+        "id_diputado": "247"
+      },
+      {
+        "nombre": "López Bolaños Luis Javier",
+        "id_diputado": "942"
+      },
+      {
+        "nombre": "López Escobar Julio César",
+        "id_diputado": "789"
+      },
+      {
+        "nombre": "Monzón Escobedo Mercedes del Rosario",
+        "id_diputado": "959"
+      },
+      {
+        "nombre": "Toledo Cruz José Diego",
+        "id_diputado": "960"
+      },
+      {
+        "nombre": "Velásquez Pérez Mario",
+        "id_diputado": "154"
+      }
+    ],
+    "abstencion": []
+  },
+  "totales": {
+    "favor": 24,
+    "contra": 0,
+    "ausente": 14,
+    "abstencion": 0
+  }
+}

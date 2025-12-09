@@ -1,0 +1,87 @@
+{
+  "votacionId": "49092",
+  "eventoId": "41254",
+  "sesion": {
+    "eventoId": "41254",
+    "tipo": "Ordinaria",
+    "numero": "5",
+    "descripcion": "No. 5, Fase 1, Fecha 11/02/2025 01:43:55",
+    "fecha": "11/02/2025"
+  },
+  "pregunta": "APROBACIÓN DEL ARTÍCULO 10 DEL PROYECTO DE DECRETO QUE DISPONE APROBAR LA INICIATIVA DE LEY 6504",
+  "iniciativa": "6504",
+  "votos": {
+    "favor": [
+      {
+        "nombre": "Godoy Palala Mirna Victoria",
+        "id_diputado": "909"
+      },
+      {
+        "nombre": "Guerrero de la Cruz Alma Luz",
+        "id_diputado": "935"
+      },
+      {
+        "nombre": "Marroquín Cordón Laura Fabiola",
+        "id_diputado": "895"
+      },
+      {
+        "nombre": "Mejía López Brenda Marleny",
+        "id_diputado": "896"
+      },
+      {
+        "nombre": "Motta Kolleff Elena Sofia",
+        "id_diputado": "897"
+      },
+      {
+        "nombre": "Reyes Zeceña Andrea María",
+        "id_diputado": "913"
+      },
+      {
+        "nombre": "Sanabria Arias José Carlos",
+        "id_diputado": "914"
+      },
+      {
+        "nombre": "Ventura Urbina Luis Enrique",
+        "id_diputado": "978"
+      },
+      {
+        "nombre": "Villalta Pereira Olga Isabel",
+        "id_diputado": "977"
+      }
+    ],
+    "contra": [],
+    "ausente": [
+      {
+        "nombre": "Gutierrez Raguay Sonia Marina",
+        "id_diputado": "861"
+      },
+      {
+        "nombre": "Guzmán Figueroa Rolando",
+        "id_diputado": "902"
+      },
+      {
+        "nombre": "Portillo Cordón Ronald Yomelfy",
+        "id_diputado": "946"
+      },
+      {
+        "nombre": "Ramírez Retana Thelma Elizabeth",
+        "id_diputado": "126"
+      },
+      {
+        "nombre": "Rivera Estévez Juan Carlos",
+        "id_diputado": "857"
+      },
+      {
+        "nombre": "Rojas Alarcón Carlos Napoleon",
+        "id_diputado": "130"
+      }
+    ],
+    "abstencion": []
+  },
+  "totales": {
+    "favor": 9,
+    "contra": 0,
+    "ausente": 6,
+    "abstencion": 0
+  }
+}

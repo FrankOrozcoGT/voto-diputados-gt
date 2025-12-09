@@ -1,0 +1,75 @@
+{
+  "votacionId": "47986",
+  "eventoId": "41230",
+  "sesion": {
+    "eventoId": "41230",
+    "tipo": "Ordinaria",
+    "numero": "40",
+    "descripcion": "No. 40, Fase 2, Fecha 08/10/2024 09:05:32",
+    "fecha": "08/10/2024"
+  },
+  "pregunta": "ELECCIÓN DE CARLOS RAMIRO CONTRERAS VALENZUELA COMO MAGISTRADO TITULAR DE LA CORTE DE APELACIONES",
+  "iniciativa": null,
+  "votos": {
+    "favor": [
+      {
+        "nombre": "Amézquita Del Valle César Augusto",
+        "id_diputado": "948"
+      },
+      {
+        "nombre": "Cifuentes Barragán Guillermo Alberto",
+        "id_diputado": "776"
+      },
+      {
+        "nombre": "Cifuentes Delgado Victor Hugo",
+        "id_diputado": "883"
+      },
+      {
+        "nombre": "De León Torres Nadia Lorena",
+        "id_diputado": "933"
+      },
+      {
+        "nombre": "España Cáceres Boris Roberto",
+        "id_diputado": "54"
+      },
+      {
+        "nombre": "Gálvez Muñóz  Mario Ernesto",
+        "id_diputado": "870"
+      },
+      {
+        "nombre": "Pereira Delgado Rudy Berner",
+        "id_diputado": "117"
+      },
+      {
+        "nombre": "Preciado Navarijo Vivian Beatriz",
+        "id_diputado": "122"
+      },
+      {
+        "nombre": "Ramírez Retana Thelma Elizabeth",
+        "id_diputado": "126"
+      },
+      {
+        "nombre": "Solórzano Quevedo Raúl Antonio",
+        "id_diputado": "875"
+      }
+    ],
+    "contra": [],
+    "ausente": [
+      {
+        "nombre": "López Escobar Julio César",
+        "id_diputado": "789"
+      },
+      {
+        "nombre": "Rodas Méndez Nery Mamfredo",
+        "id_diputado": "931"
+      }
+    ],
+    "abstencion": []
+  },
+  "totales": {
+    "favor": 10,
+    "contra": 0,
+    "ausente": 2,
+    "abstencion": 0
+  }
+}

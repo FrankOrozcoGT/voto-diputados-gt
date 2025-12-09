@@ -1,0 +1,71 @@
+{
+  "votacionId": "48478",
+  "eventoId": "41230",
+  "sesion": {
+    "eventoId": "41230",
+    "tipo": "Ordinaria",
+    "numero": "40",
+    "descripcion": "No. 40, Fase 2, Fecha 08/10/2024 09:05:32",
+    "fecha": "08/10/2024"
+  },
+  "pregunta": "ELECCIÓN DE LUIS MAURICIO CORADO CAMPOS COMO MAGISTRADO SUPLENTE DE LA CORTE DE APELACIONES",
+  "iniciativa": null,
+  "votos": {
+    "favor": [
+      {
+        "nombre": "Cifuentes Barragán Guillermo Alberto",
+        "id_diputado": "776"
+      },
+      {
+        "nombre": "Cifuentes Delgado Victor Hugo",
+        "id_diputado": "883"
+      },
+      {
+        "nombre": "Estrada Domínguez Julio Héctor",
+        "id_diputado": "930"
+      },
+      {
+        "nombre": "Ramírez Retana Thelma Elizabeth",
+        "id_diputado": "126"
+      },
+      {
+        "nombre": "Reyes Lee Edgar Raúl",
+        "id_diputado": "127"
+      },
+      {
+        "nombre": "Rivas García Juan Ramon",
+        "id_diputado": "811"
+      }
+    ],
+    "contra": [],
+    "ausente": [
+      {
+        "nombre": "Blanco Lapola Orlando Joaquín",
+        "id_diputado": "18"
+      },
+      {
+        "nombre": "Corleto Rivera Oscar Rolando",
+        "id_diputado": "41"
+      },
+      {
+        "nombre": "Marroquín Godoy de Palomo Ana Lucrecia",
+        "id_diputado": "179"
+      },
+      {
+        "nombre": "Marroquín Ordoñez Julio Daniel",
+        "id_diputado": "917"
+      },
+      {
+        "nombre": "Salazar Cordero Faver Emilio",
+        "id_diputado": "924"
+      }
+    ],
+    "abstencion": []
+  },
+  "totales": {
+    "favor": 6,
+    "contra": 0,
+    "ausente": 5,
+    "abstencion": 0
+  }
+}

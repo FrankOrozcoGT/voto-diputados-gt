@@ -1,0 +1,79 @@
+{
+  "votacionId": "49745",
+  "eventoId": "41308",
+  "sesion": {
+    "eventoId": "41308",
+    "tipo": "Ordinaria",
+    "numero": "43",
+    "descripcion": "No. 43, Fase 1, Fecha 28/10/2025 12:55:10",
+    "fecha": "28/10/2025"
+  },
+  "pregunta": "CONSULTA AL PLENO SOBRE ACEPTACIÓN DE LA RENUNCIA AL CARGO DE PRIMER SECRETARIO DE JUNTA DIRECTIVA, PRESENTADA POR EL JEFE DEL BLOQUE LEGISLATIVO VOS",
+  "iniciativa": null,
+  "votos": {
+    "favor": [
+      {
+        "nombre": "Chocooj de la Cruz Bequer Neftali",
+        "id_diputado": "965"
+      },
+      {
+        "nombre": "Cifuentes Barragán Gladis Carolina",
+        "id_diputado": "962"
+      },
+      {
+        "nombre": "Cifuentes Barragán Guillermo Alberto",
+        "id_diputado": "776"
+      },
+      {
+        "nombre": "Jovel Polanco Sandra Erica",
+        "id_diputado": "898"
+      },
+      {
+        "nombre": "Mejía Popol Maynor Gabriel",
+        "id_diputado": "782"
+      },
+      {
+        "nombre": "Portillo Cordón Ronald Yomelfy",
+        "id_diputado": "946"
+      },
+      {
+        "nombre": "Rivera Zaldaña  Shirley Joanna",
+        "id_diputado": "785"
+      },
+      {
+        "nombre": "Rodas Méndez Nery Mamfredo",
+        "id_diputado": "931"
+      },
+      {
+        "nombre": "Rodríguez Reyes Allan Estuardo",
+        "id_diputado": "770"
+      },
+      {
+        "nombre": "Tzún De León Erick José Mario",
+        "id_diputado": "954"
+      }
+    ],
+    "contra": [],
+    "ausente": [
+      {
+        "nombre": "Calderon Galvez Carlos Roberto",
+        "id_diputado": "774"
+      },
+      {
+        "nombre": "Quijada Heredia Juán Ignacio",
+        "id_diputado": "809"
+      },
+      {
+        "nombre": "Solórzano Quevedo Raúl Antonio",
+        "id_diputado": "875"
+      }
+    ],
+    "abstencion": []
+  },
+  "totales": {
+    "favor": 10,
+    "contra": 0,
+    "ausente": 3,
+    "abstencion": 0
+  }
+}

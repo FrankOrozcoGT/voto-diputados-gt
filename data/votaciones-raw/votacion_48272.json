@@ -1,0 +1,71 @@
+{
+  "votacionId": "48272",
+  "eventoId": "41230",
+  "sesion": {
+    "eventoId": "41230",
+    "tipo": "Ordinaria",
+    "numero": "40",
+    "descripcion": "No. 40, Fase 2, Fecha 08/10/2024 09:05:32",
+    "fecha": "08/10/2024"
+  },
+  "pregunta": "ELECCIÓN DE ERWIN IVÁN ROMERO MORALES COMO MAGISTRADO SUPLENTE DE LA CORTE DE APELACIONES",
+  "iniciativa": null,
+  "votos": {
+    "favor": [
+      {
+        "nombre": "Amézquita Del Valle César Augusto",
+        "id_diputado": "948"
+      },
+      {
+        "nombre": "Chic Cardona José Alberto",
+        "id_diputado": "899"
+      },
+      {
+        "nombre": "Flores Divas Jairo Joaquín",
+        "id_diputado": "61"
+      },
+      {
+        "nombre": "Luján Padilla Ivanna María",
+        "id_diputado": "911"
+      },
+      {
+        "nombre": "Marroquín Cordón Laura Fabiola",
+        "id_diputado": "895"
+      },
+      {
+        "nombre": "Mejía López Brenda Marleny",
+        "id_diputado": "896"
+      },
+      {
+        "nombre": "Ramírez Retana Thelma Elizabeth",
+        "id_diputado": "126"
+      },
+      {
+        "nombre": "Rodríguez Palacios Byron Bladimiro",
+        "id_diputado": "952"
+      }
+    ],
+    "contra": [],
+    "ausente": [
+      {
+        "nombre": "Blanco Lapola Orlando Joaquín",
+        "id_diputado": "18"
+      },
+      {
+        "nombre": "Marroquín Godoy de Palomo Ana Lucrecia",
+        "id_diputado": "179"
+      },
+      {
+        "nombre": "Marroquín Ordoñez Julio Daniel",
+        "id_diputado": "917"
+      }
+    ],
+    "abstencion": []
+  },
+  "totales": {
+    "favor": 8,
+    "contra": 0,
+    "ausente": 3,
+    "abstencion": 0
+  }
+}

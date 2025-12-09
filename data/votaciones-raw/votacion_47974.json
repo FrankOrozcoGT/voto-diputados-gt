@@ -1,0 +1,59 @@
+{
+  "votacionId": "47974",
+  "eventoId": "41230",
+  "sesion": {
+    "eventoId": "41230",
+    "tipo": "Ordinaria",
+    "numero": "40",
+    "descripcion": "No. 40, Fase 2, Fecha 08/10/2024 09:05:32",
+    "fecha": "08/10/2024"
+  },
+  "pregunta": "ELECCIÓN DE FLOR DE MARIA GARCIA VILLATORO COMO MAGISTRADO TITULAR DE LA CORTE DE APELACIONES",
+  "iniciativa": null,
+  "votos": {
+    "favor": [
+      {
+        "nombre": "Amézquita Del Valle César Augusto",
+        "id_diputado": "948"
+      },
+      {
+        "nombre": "Castillo Martínez José Inés",
+        "id_diputado": "30"
+      },
+      {
+        "nombre": "Cifuentes Barragán Guillermo Alberto",
+        "id_diputado": "776"
+      },
+      {
+        "nombre": "Cifuentes Delgado Victor Hugo",
+        "id_diputado": "883"
+      },
+      {
+        "nombre": "Gálvez Muñóz  Mario Ernesto",
+        "id_diputado": "870"
+      },
+      {
+        "nombre": "Orellana Cruz Sandra Carolina",
+        "id_diputado": "790"
+      },
+      {
+        "nombre": "Solórzano Quevedo Raúl Antonio",
+        "id_diputado": "875"
+      }
+    ],
+    "contra": [],
+    "ausente": [
+      {
+        "nombre": "Rodas Méndez Nery Mamfredo",
+        "id_diputado": "931"
+      }
+    ],
+    "abstencion": []
+  },
+  "totales": {
+    "favor": 7,
+    "contra": 0,
+    "ausente": 1,
+    "abstencion": 0
+  }
+}

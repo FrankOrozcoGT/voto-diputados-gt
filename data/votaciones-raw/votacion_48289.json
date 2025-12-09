@@ -1,0 +1,147 @@
+{
+  "votacionId": "48289",
+  "eventoId": "41230",
+  "sesion": {
+    "eventoId": "41230",
+    "tipo": "Ordinaria",
+    "numero": "40",
+    "descripcion": "No. 40, Fase 2, Fecha 08/10/2024 09:05:32",
+    "fecha": "08/10/2024"
+  },
+  "pregunta": "ELECCIÓN DE LORENA ISABEL FLORES ESTRADA COMO MAGISTRADO SUPLENTE DE LA CORTE DE APELACIONES",
+  "iniciativa": null,
+  "votos": {
+    "favor": [
+      {
+        "nombre": "Alvarez y Alvarez Cristian Rodolfo",
+        "id_diputado": "851"
+      },
+      {
+        "nombre": "Amézquita Del Valle César Augusto",
+        "id_diputado": "948"
+      },
+      {
+        "nombre": "Chic Cardona José Alberto",
+        "id_diputado": "899"
+      },
+      {
+        "nombre": "Dávila Córdova César Roberto",
+        "id_diputado": "906"
+      },
+      {
+        "nombre": "De León Torres Nadia Lorena",
+        "id_diputado": "933"
+      },
+      {
+        "nombre": "De León Torres Lourdes Teresita",
+        "id_diputado": "940"
+      },
+      {
+        "nombre": "Enriquez Garzaro Sergio Guillermo",
+        "id_diputado": "941"
+      },
+      {
+        "nombre": "España Cáceres Boris Roberto",
+        "id_diputado": "54"
+      },
+      {
+        "nombre": "Flores Divas Jairo Joaquín",
+        "id_diputado": "61"
+      },
+      {
+        "nombre": "Gálvez De León Manrique Obel",
+        "id_diputado": "920"
+      },
+      {
+        "nombre": "Gálvez Muñóz  Mario Ernesto",
+        "id_diputado": "870"
+      },
+      {
+        "nombre": "Gutierrez Raguay Sonia Marina",
+        "id_diputado": "861"
+      },
+      {
+        "nombre": "Hernández Herrera Sofía Jeanetth",
+        "id_diputado": "78"
+      },
+      {
+        "nombre": "López Maldonado Carlos Enrique",
+        "id_diputado": "92"
+      },
+      {
+        "nombre": "Lucas Paz Darwin Alberto",
+        "id_diputado": "801"
+      },
+      {
+        "nombre": "Matías Santiago Marleni Lineth",
+        "id_diputado": "100"
+      },
+      {
+        "nombre": "Mendoza Franco José Pablo",
+        "id_diputado": "893"
+      },
+      {
+        "nombre": "Orellana Cruz Sandra Carolina",
+        "id_diputado": "790"
+      },
+      {
+        "nombre": "Ovalle Barrios Rolando Miguel",
+        "id_diputado": "953"
+      },
+      {
+        "nombre": "Ramos y Ramos Nery Abilio",
+        "id_diputado": "925"
+      },
+      {
+        "nombre": "Reyes Lee Fidel",
+        "id_diputado": "128"
+      },
+      {
+        "nombre": "Reyes Lee Edgar Raúl",
+        "id_diputado": "127"
+      },
+      {
+        "nombre": "Rivera Zaldaña  Shirley Joanna",
+        "id_diputado": "785"
+      },
+      {
+        "nombre": "Samayoa Reyes Lucrecia Carola",
+        "id_diputado": "135"
+      },
+      {
+        "nombre": "Velásquez Bámaca Sabino Sebastián",
+        "id_diputado": "829"
+      }
+    ],
+    "contra": [],
+    "ausente": [
+      {
+        "nombre": "Blanco Lapola Orlando Joaquín",
+        "id_diputado": "18"
+      },
+      {
+        "nombre": "Marroquín Godoy de Palomo Ana Lucrecia",
+        "id_diputado": "179"
+      },
+      {
+        "nombre": "Marroquín Ordoñez Julio Daniel",
+        "id_diputado": "917"
+      },
+      {
+        "nombre": "Quezada Valdéz José Adolfo",
+        "id_diputado": "864"
+      },
+      {
+        "nombre": "Rodríguez Palacios Byron Bladimiro",
+        "id_diputado": "952"
+      }
+    ],
+    "abstencion": []
+  },
+  "totales": {
+    "favor": 25,
+    "contra": 0,
+    "ausente": 5,
+    "abstencion": 0
+  }
+}

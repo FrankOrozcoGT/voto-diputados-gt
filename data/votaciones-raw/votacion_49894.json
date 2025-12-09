@@ -1,0 +1,70 @@
+{
+  "votacionId": "49894",
+  "eventoId": "41318",
+  "sesion": {
+    "eventoId": "41318",
+    "tipo": "Ordinaria",
+    "numero": "48",
+    "descripcion": "No. 48, Fase 1, Fecha 25/11/2025 12:54:12",
+    "fecha": "25/11/2025"
+  },
+  "pregunta": "APROBACIÓN DEL ARTÍCULO 9  DEL PROYECTO DE DECRETO QUE DISPONE APROBAR LA INICIATIVA DE LEY 6433",
+  "iniciativa": "6433",
+  "votos": {
+    "favor": [
+      {
+        "nombre": "Arana Roca Sergio David",
+        "id_diputado": "772"
+      },
+      {
+        "nombre": "Arévalo Avila Sherol Ivanisse",
+        "id_diputado": "972"
+      },
+      {
+        "nombre": "Castillo Martínez José Inés",
+        "id_diputado": "30"
+      },
+      {
+        "nombre": "Corleto Rivera Oscar Rolando",
+        "id_diputado": "41"
+      },
+      {
+        "nombre": "Leal Gómez Candido Fernando",
+        "id_diputado": "780"
+      },
+      {
+        "nombre": "Lemus Cifuentes Josué Edmundo",
+        "id_diputado": "881"
+      },
+      {
+        "nombre": "Marroquín Ordoñez Julio Daniel",
+        "id_diputado": "917"
+      },
+      {
+        "nombre": "Mejía Popol Maynor Gabriel",
+        "id_diputado": "782"
+      },
+      {
+        "nombre": "Ramírez Cameros Darwin Edgardo",
+        "id_diputado": "922"
+      },
+      {
+        "nombre": "Rojas Alarcón Carlos Napoleon",
+        "id_diputado": "130"
+      },
+      {
+        "nombre": "Solano José Carlo",
+        "id_diputado": "958"
+      }
+    ],
+    "contra": [],
+    "ausente": [],
+    "abstencion": []
+  },
+  "totales": {
+    "favor": 11,
+    "contra": 0,
+    "ausente": 0,
+    "abstencion": 0
+  }
+}

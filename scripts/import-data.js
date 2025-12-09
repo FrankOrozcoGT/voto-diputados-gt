@@ -1,6 +1,5 @@
 /**
- * Script para importar partidos y diputados desde JSON
- */
+ * Script para importar partidos y diputados desde JSON en data */
 
 import { createClient } from '@supabase/supabase-js';
 import fs from 'fs/promises';

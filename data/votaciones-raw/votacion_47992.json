@@ -1,0 +1,79 @@
+{
+  "votacionId": "47992",
+  "eventoId": "41230",
+  "sesion": {
+    "eventoId": "41230",
+    "tipo": "Ordinaria",
+    "numero": "40",
+    "descripcion": "No. 40, Fase 2, Fecha 08/10/2024 09:05:32",
+    "fecha": "08/10/2024"
+  },
+  "pregunta": "ELECCIÓN DE CHRISTIAN WAGNER ERNESTO SALAZAR CASTILLO COMO MAGISTRADO TITULAR DE LA CORTE DE APELACIONES",
+  "iniciativa": null,
+  "votos": {
+    "favor": [
+      {
+        "nombre": "Amézquita Del Valle César Augusto",
+        "id_diputado": "948"
+      },
+      {
+        "nombre": "Bonilla González Victor Vicente",
+        "id_diputado": "891"
+      },
+      {
+        "nombre": "Cifuentes Ovalle Pablo Leonel",
+        "id_diputado": "888"
+      },
+      {
+        "nombre": "España Cáceres Boris Roberto",
+        "id_diputado": "54"
+      },
+      {
+        "nombre": "Ovalle Barrios Rolando Miguel",
+        "id_diputado": "953"
+      },
+      {
+        "nombre": "Pereira Delgado Rudy Berner",
+        "id_diputado": "117"
+      },
+      {
+        "nombre": "Preciado Navarijo Vivian Beatriz",
+        "id_diputado": "122"
+      },
+      {
+        "nombre": "Ramírez Retana Thelma Elizabeth",
+        "id_diputado": "126"
+      },
+      {
+        "nombre": "Rivera Salazar Mynor Francisco",
+        "id_diputado": "890"
+      },
+      {
+        "nombre": "Rivera Zaldaña  Shirley Joanna",
+        "id_diputado": "785"
+      }
+    ],
+    "contra": [],
+    "ausente": [
+      {
+        "nombre": "Castellanos Caal Román Wilfredo",
+        "id_diputado": "831"
+      },
+      {
+        "nombre": "De León Torres Nadia Lorena",
+        "id_diputado": "933"
+      },
+      {
+        "nombre": "De León Torres Lourdes Teresita",
+        "id_diputado": "940"
+      }
+    ],
+    "abstencion": []
+  },
+  "totales": {
+    "favor": 10,
+    "contra": 0,
+    "ausente": 3,
+    "abstencion": 0
+  }
+}

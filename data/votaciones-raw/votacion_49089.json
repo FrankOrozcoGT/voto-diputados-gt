@@ -1,0 +1,115 @@
+{
+  "votacionId": "49089",
+  "eventoId": "41254",
+  "sesion": {
+    "eventoId": "41254",
+    "tipo": "Ordinaria",
+    "numero": "5",
+    "descripcion": "No. 5, Fase 1, Fecha 11/02/2025 01:43:55",
+    "fecha": "11/02/2025"
+  },
+  "pregunta": "APROBACIÓN DEL ARTÍCULO 7 DEL PROYECTO DE DECRETO QUE DISPONE APROBAR LA INICIATIVA DE LEY 6504",
+  "iniciativa": "6504",
+  "votos": {
+    "favor": [
+      {
+        "nombre": "Arana Roca Sergio David",
+        "id_diputado": "772"
+      },
+      {
+        "nombre": "Castillo Martínez José Inés",
+        "id_diputado": "30"
+      },
+      {
+        "nombre": "De León Torres Lourdes Teresita",
+        "id_diputado": "940"
+      },
+      {
+        "nombre": "Maldonado Alonzo Vasny Adiel",
+        "id_diputado": "802"
+      },
+      {
+        "nombre": "Martínez Juárez Christian Joél",
+        "id_diputado": "921"
+      },
+      {
+        "nombre": "Mazariegos López Nery René",
+        "id_diputado": "845"
+      },
+      {
+        "nombre": "Nicolás Segundo Martín",
+        "id_diputado": "806"
+      },
+      {
+        "nombre": "Pereira Delgado Rudy Berner",
+        "id_diputado": "117"
+      },
+      {
+        "nombre": "Portillo Paz Julio César",
+        "id_diputado": "974"
+      },
+      {
+        "nombre": "Preciado Navarijo Vivian Beatriz",
+        "id_diputado": "122"
+      },
+      {
+        "nombre": "Quezada Valdéz José Adolfo",
+        "id_diputado": "864"
+      },
+      {
+        "nombre": "Reyes Lee Fidel",
+        "id_diputado": "128"
+      },
+      {
+        "nombre": "Rivas García Juan Ramon",
+        "id_diputado": "811"
+      },
+      {
+        "nombre": "Rodas Cardona César Augusto",
+        "id_diputado": "901"
+      },
+      {
+        "nombre": "Rosales Polanco Oswaldo",
+        "id_diputado": "874"
+      },
+      {
+        "nombre": "Solano José Carlo",
+        "id_diputado": "958"
+      },
+      {
+        "nombre": "Villagrán Antón de Pantoja Andrea Beatríz",
+        "id_diputado": "155"
+      }
+    ],
+    "contra": [],
+    "ausente": [
+      {
+        "nombre": "Maldonado Molina Ervin Adim",
+        "id_diputado": "95"
+      },
+      {
+        "nombre": "Portillo Cordón Ronald Yomelfy",
+        "id_diputado": "946"
+      },
+      {
+        "nombre": "Ramírez Retana Thelma Elizabeth",
+        "id_diputado": "126"
+      },
+      {
+        "nombre": "Rivera Estévez Juan Carlos",
+        "id_diputado": "857"
+      },
+      {
+        "nombre": "Rojas Alarcón Carlos Napoleon",
+        "id_diputado": "130"
+      }
+    ],
+    "abstencion": []
+  },
+  "totales": {
+    "favor": 17,
+    "contra": 0,
+    "ausente": 5,
+    "abstencion": 0
+  }
+}

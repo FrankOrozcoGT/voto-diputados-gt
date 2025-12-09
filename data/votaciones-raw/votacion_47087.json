@@ -1,0 +1,79 @@
+{
+  "votacionId": "47087",
+  "eventoId": "41178",
+  "sesion": {
+    "eventoId": "41178",
+    "tipo": "Ordinaria",
+    "numero": "10",
+    "descripcion": "No. 10, Fase 1, Fecha 20/02/2024 01:02:22",
+    "fecha": "20/02/2024"
+  },
+  "pregunta": "ACEPTACIÓN DE LA RENUNCIA PRESENTADA (LICENCIADO NOE VENTURA)",
+  "iniciativa": null,
+  "votos": {
+    "favor": [
+      {
+        "nombre": "Corleto Rivera Oscar Rolando",
+        "id_diputado": "41"
+      },
+      {
+        "nombre": "Gutiérrez Raguay Sonia Marina",
+        "id_diputado": "861"
+      },
+      {
+        "nombre": "Morataya Marroquín Evelyn Oddeth",
+        "id_diputado": "828"
+      }
+    ],
+    "contra": [],
+    "ausente": [
+      {
+        "nombre": "Cardona Arreaga de Pojoy Karla Betzaida",
+        "id_diputado": "919"
+      },
+      {
+        "nombre": "Castillo Martínez José Inés",
+        "id_diputado": "30"
+      },
+      {
+        "nombre": "De León De León de Pérez Greicy Domenica",
+        "id_diputado": "895"
+      },
+      {
+        "nombre": "Galindo De León José Luis",
+        "id_diputado": "819"
+      },
+      {
+        "nombre": "Gómez Gómez Julio Pedro",
+        "id_diputado": "971"
+      },
+      {
+        "nombre": "Lam Ruano Francisco Vitelio",
+        "id_diputado": "86"
+      },
+      {
+        "nombre": "Rivera Estévez Juan Carlos",
+        "id_diputado": "857"
+      },
+      {
+        "nombre": "Rivera Zaldaña  Shirley Joanna",
+        "id_diputado": "785"
+      },
+      {
+        "nombre": "Rodríguez Reyes Luis Alberto",
+        "id_diputado": "966"
+      }
+    ],
+    "abstencion": []
+  },
+  "totales": {
+    "favor": 3,
+    "contra": 0,
+    "ausente": 9,
+    "abstencion": 0
+  },
+  "diputados_sin_id": [
+    "Orantes Thomas Ana Patricia",
+    "Tzun De León Erick José"
+  ]
+}

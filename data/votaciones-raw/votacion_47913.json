@@ -1,0 +1,194 @@
+{
+  "votacionId": "47913",
+  "eventoId": "41228",
+  "sesion": {
+    "eventoId": "41228",
+    "tipo": "Ordinaria",
+    "numero": "40",
+    "descripcion": "No. 40, Fase 1, Fecha 03/10/2024 09:18:00",
+    "fecha": "03/10/2024"
+  },
+  "pregunta": "ELECCIÓN DE VILMA ROSSANA REYES GONZÁLEZ COMO MAGISTRADO DE LA CORTE SUPREMA DE JUSTICIA",
+  "iniciativa": null,
+  "votos": {
+    "favor": [
+      {
+        "nombre": "Alvarez y Alvarez Cristian Rodolfo",
+        "id_diputado": "851"
+      },
+      {
+        "nombre": "Arévalo Avila Sherol Ivanisse",
+        "id_diputado": "972"
+      },
+      {
+        "nombre": "Ayala Marroquín Jorge Estuardo",
+        "id_diputado": "918"
+      },
+      {
+        "nombre": "Barragán Morales Gerson Geovanny",
+        "id_diputado": "969"
+      },
+      {
+        "nombre": "Blanco Lapola Orlando Joaquín",
+        "id_diputado": "18"
+      },
+      {
+        "nombre": "Bran Colindres Ernesto",
+        "id_diputado": "900"
+      },
+      {
+        "nombre": "Castañasa Mendizábal Obbed Ediberto",
+        "id_diputado": "905"
+      },
+      {
+        "nombre": "Castillo Martínez José Inés",
+        "id_diputado": "30"
+      },
+      {
+        "nombre": "Castillo y Castillo Maynor Estuardo",
+        "id_diputado": "787"
+      },
+      {
+        "nombre": "Cerna Acevedo Dámaris Carolina",
+        "id_diputado": "939"
+      },
+      {
+        "nombre": "Chic Cardona José Alberto",
+        "id_diputado": "899"
+      },
+      {
+        "nombre": "De Jesús Mejía Edín Alexander",
+        "id_diputado": "950"
+      },
+      {
+        "nombre": "Díaz Mazariegos Gerardín Ariel",
+        "id_diputado": "818"
+      },
+      {
+        "nombre": "España Cáceres Boris Roberto",
+        "id_diputado": "54"
+      },
+      {
+        "nombre": "Flores Divas Jairo Joaquín",
+        "id_diputado": "61"
+      },
+      {
+        "nombre": "Galindo de León José Luis",
+        "id_diputado": "819"
+      },
+      {
+        "nombre": "García Barrios José Arnulfo",
+        "id_diputado": "788"
+      },
+      {
+        "nombre": "Guardado Linares de Nájera Mercedes Cristabel",
+        "id_diputado": "904"
+      },
+      {
+        "nombre": "Gutierrez Raguay Sonia Marina",
+        "id_diputado": "861"
+      },
+      {
+        "nombre": "Jovel Polanco Sandra Erica",
+        "id_diputado": "898"
+      },
+      {
+        "nombre": "Lam Ruano Francisco Vitelio",
+        "id_diputado": "86"
+      },
+      {
+        "nombre": "López Girón Carlos Enrique",
+        "id_diputado": "976"
+      },
+      {
+        "nombre": "Lucero Vásquez Jaime Octavio Augusto",
+        "id_diputado": "93"
+      },
+      {
+        "nombre": "Madrazo Mazariegos Danilo",
+        "id_diputado": "967"
+      },
+      {
+        "nombre": "Martínez Alarcón Ricardo Leonel",
+        "id_diputado": "964"
+      },
+      {
+        "nombre": "Martínez Herrera Joél Rubén",
+        "id_diputado": "99"
+      },
+      {
+        "nombre": "Martínez Juárez Christian Joél",
+        "id_diputado": "921"
+      },
+      {
+        "nombre": "Matías Santiago Marleni Lineth",
+        "id_diputado": "100"
+      },
+      {
+        "nombre": "Obregón Castañeda Byron Alesky",
+        "id_diputado": "937"
+      },
+      {
+        "nombre": "Palencia Reyes Elmer Josué",
+        "id_diputado": "919"
+      },
+      {
+        "nombre": "Pereira Delgado Rudy Berner",
+        "id_diputado": "117"
+      },
+      {
+        "nombre": "Preciado Navarijo Vivian Beatriz",
+        "id_diputado": "122"
+      },
+      {
+        "nombre": "Ralda Conde Guillermo Antonio",
+        "id_diputado": "957"
+      },
+      {
+        "nombre": "Ramírez Retana Thelma Elizabeth",
+        "id_diputado": "126"
+      },
+      {
+        "nombre": "Ramos y Ramos Nery Abilio",
+        "id_diputado": "925"
+      },
+      {
+        "nombre": "Reyes Lee Fidel",
+        "id_diputado": "128"
+      },
+      {
+        "nombre": "Rivas García Juan Ramon",
+        "id_diputado": "811"
+      },
+      {
+        "nombre": "Rivera Zaldaña  Shirley Joanna",
+        "id_diputado": "785"
+      },
+      {
+        "nombre": "Rodas Cardona César Augusto",
+        "id_diputado": "901"
+      },
+      {
+        "nombre": "Rosales Polanco Oswaldo",
+        "id_diputado": "874"
+      },
+      {
+        "nombre": "Salazar Cordero Faver Emilio",
+        "id_diputado": "924"
+      },
+      {
+        "nombre": "Solano José Carlo",
+        "id_diputado": "958"
+      }
+    ],
+    "contra": [],
+    "ausente": [],
+    "abstencion": []
+  },
+  "totales": {
+    "favor": 42,
+    "contra": 0,
+    "ausente": 0,
+    "abstencion": 0
+  }
+}

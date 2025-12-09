@@ -1,0 +1,119 @@
+{
+  "votacionId": "47346",
+  "eventoId": "41185",
+  "sesion": {
+    "eventoId": "41185",
+    "tipo": "Ordinaria",
+    "numero": "17",
+    "descripcion": "No. 17, Fase 1, Fecha 02/04/2024 01:00:19",
+    "fecha": "02/04/2024"
+  },
+  "pregunta": "ELECCIÓN DE MANUEL DE JESÚS ARCHILA CORDÓN COMO MIEMBRO TITULAR EN REPRESENTACIÓN DEL CONGRESO DE LA REPÚBLICA ANTE LA JUNTA MONETARIA",
+  "iniciativa": null,
+  "votos": {
+    "favor": [
+      {
+        "nombre": "Barragan Morales Gerson Geovanny",
+        "id_diputado": "969"
+      },
+      {
+        "nombre": "Calderon Galvez Carlos Roberto",
+        "id_diputado": "774"
+      },
+      {
+        "nombre": "Cerna Acevedo Damaris Carolina",
+        "id_diputado": "939"
+      },
+      {
+        "nombre": "De León Torres Lourdes Teresita",
+        "id_diputado": "940"
+      },
+      {
+        "nombre": "García García Cornelio Gonzalo",
+        "id_diputado": "65"
+      },
+      {
+        "nombre": "López Escobar Julio César",
+        "id_diputado": "789"
+      },
+      {
+        "nombre": "López Maldonado Carlos Enrique",
+        "id_diputado": "92"
+      },
+      {
+        "nombre": "Martínez Juarez Christian Joel",
+        "id_diputado": "921"
+      },
+      {
+        "nombre": "Rodas Méndez Nery Mamfredo",
+        "id_diputado": "931"
+      },
+      {
+        "nombre": "Samayoa Reyes Lucrecia Carola",
+        "id_diputado": "135"
+      },
+      {
+        "nombre": "Solano José Carlo",
+        "id_diputado": "958"
+      },
+      {
+        "nombre": "Velásquez Bámaca Sabino Sebastián",
+        "id_diputado": "829"
+      }
+    ],
+    "contra": [],
+    "ausente": [
+      {
+        "nombre": "Arana Roca Sergio David",
+        "id_diputado": "772"
+      },
+      {
+        "nombre": "De León Torres Nadia Lorena",
+        "id_diputado": "933"
+      },
+      {
+        "nombre": "Galindo De León José Luis",
+        "id_diputado": "819"
+      },
+      {
+        "nombre": "Guzmán Figueroa Rolando",
+        "id_diputado": "902"
+      },
+      {
+        "nombre": "Lemus Cifuentes Josué Edmundo",
+        "id_diputado": "881"
+      },
+      {
+        "nombre": "Lima Pop Fidencio",
+        "id_diputado": "247"
+      },
+      {
+        "nombre": "Preciado Navarijo Vivian Beatriz",
+        "id_diputado": "122"
+      },
+      {
+        "nombre": "Rivera Estévez Juan Carlos",
+        "id_diputado": "857"
+      },
+      {
+        "nombre": "Rivera Zaldaña  Shirley Joanna",
+        "id_diputado": "785"
+      },
+      {
+        "nombre": "Villalta Pereira Olga Isabel",
+        "id_diputado": "977"
+      }
+    ],
+    "abstencion": []
+  },
+  "totales": {
+    "favor": 12,
+    "contra": 0,
+    "ausente": 10,
+    "abstencion": 0
+  },
+  "diputados_sin_id": [
+    "Orantes Thomas Ana Patricia",
+    "Tzun De León Erick José"
+  ]
+}

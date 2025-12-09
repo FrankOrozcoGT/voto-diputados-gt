@@ -1,0 +1,275 @@
+{
+  "votacionId": "48969",
+  "eventoId": "41245",
+  "sesion": {
+    "eventoId": "41245",
+    "tipo": "Ordinaria",
+    "numero": "54",
+    "descripcion": "No. 54, Fase 1, Fecha 26/11/2024 01:00:27",
+    "fecha": "26/11/2024"
+  },
+  "pregunta": "APROBACIÓN DE ENMIENDA POR ADICIÓN AL ARTÍCULO 1 DEL PROYECTO DE DECRETO QUE DISPONE APROBAR LA INICIATIVA DE LEY 6485",
+  "iniciativa": "6485",
+  "votos": {
+    "favor": [
+      {
+        "nombre": "Ajcip Canel Hellen Magaly Alexandrá",
+        "id_diputado": "840"
+      },
+      {
+        "nombre": "Alvarado Vásquez Manuel Geovany",
+        "id_diputado": "956"
+      },
+      {
+        "nombre": "Alvarez y Alvarez Cristian Rodolfo",
+        "id_diputado": "851"
+      },
+      {
+        "nombre": "Arana Roca Sergio David",
+        "id_diputado": "772"
+      },
+      {
+        "nombre": "Archila Cordón Manuel de Jesús",
+        "id_diputado": "907"
+      },
+      {
+        "nombre": "Blanco Lapola Orlando Joaquín",
+        "id_diputado": "18"
+      },
+      {
+        "nombre": "Cabrera Ordóñez Jorge Mario",
+        "id_diputado": "973"
+      },
+      {
+        "nombre": "Cáceres Gamarro Luis Antonio",
+        "id_diputado": "908"
+      },
+      {
+        "nombre": "Calderon Galvez Carlos Roberto",
+        "id_diputado": "774"
+      },
+      {
+        "nombre": "Castellanos Caal Román Wilfredo",
+        "id_diputado": "831"
+      },
+      {
+        "nombre": "Celis Navas Sergio Leonel",
+        "id_diputado": "31"
+      },
+      {
+        "nombre": "Contreras Colíndres Luis Alberto",
+        "id_diputado": "39"
+      },
+      {
+        "nombre": "Crúz Montoya Gustavo Adolfo",
+        "id_diputado": "826"
+      },
+      {
+        "nombre": "Dávila Córdova César Roberto",
+        "id_diputado": "906"
+      },
+      {
+        "nombre": "De León De León Greicy Domenica",
+        "id_diputado": "777"
+      },
+      {
+        "nombre": "De León Torres Lourdes Teresita",
+        "id_diputado": "940"
+      },
+      {
+        "nombre": "Echeverría Casado Herman Otoniel",
+        "id_diputado": "884"
+      },
+      {
+        "nombre": "Escobar Castillo Kevyn Luis Carlo",
+        "id_diputado": "926"
+      },
+      {
+        "nombre": "Gálvez De León Manrique Obel",
+        "id_diputado": "920"
+      },
+      {
+        "nombre": "Gálvez Muñóz  Mario Ernesto",
+        "id_diputado": "870"
+      },
+      {
+        "nombre": "García Barrios José Arnulfo",
+        "id_diputado": "788"
+      },
+      {
+        "nombre": "Godoy Palala Mirna Victoria",
+        "id_diputado": "909"
+      },
+      {
+        "nombre": "Guerrero de la Cruz Alma Luz",
+        "id_diputado": "935"
+      },
+      {
+        "nombre": "Gutierrez Raguay Sonia Marina",
+        "id_diputado": "861"
+      },
+      {
+        "nombre": "Guzmán Figueroa Rolando",
+        "id_diputado": "902"
+      },
+      {
+        "nombre": "Javier Javier Esduín Jerson",
+        "id_diputado": "892"
+      },
+      {
+        "nombre": "Lam Ruano Francisco Vitelio",
+        "id_diputado": "86"
+      },
+      {
+        "nombre": "López Escobar Julio César",
+        "id_diputado": "789"
+      },
+      {
+        "nombre": "Lucas Paz Darwin Alberto",
+        "id_diputado": "801"
+      },
+      {
+        "nombre": "Madrazo Mazariegos Danilo",
+        "id_diputado": "967"
+      },
+      {
+        "nombre": "Marroquín Cordón Laura Fabiola",
+        "id_diputado": "895"
+      },
+      {
+        "nombre": "Martínez Herrera Joél Rubén",
+        "id_diputado": "99"
+      },
+      {
+        "nombre": "Matías Santiago Marleni Lineth",
+        "id_diputado": "100"
+      },
+      {
+        "nombre": "Mazariegos López Nery René",
+        "id_diputado": "845"
+      },
+      {
+        "nombre": "Mendoza Franco José Pablo",
+        "id_diputado": "893"
+      },
+      {
+        "nombre": "Ochaeta Aguilar Ronalth Ivan",
+        "id_diputado": "912"
+      },
+      {
+        "nombre": "Pellecer Rodríguez  Rodrigo Antonio",
+        "id_diputado": "932"
+      },
+      {
+        "nombre": "Pérez Alvarez Samuel Andrés",
+        "id_diputado": "834"
+      },
+      {
+        "nombre": "Portillo Paz Julio César",
+        "id_diputado": "974"
+      },
+      {
+        "nombre": "Quijada Heredia Juán Ignacio",
+        "id_diputado": "809"
+      },
+      {
+        "nombre": "Ramírez Cameros Darwin Edgardo",
+        "id_diputado": "922"
+      },
+      {
+        "nombre": "Ramírez Retana Thelma Elizabeth",
+        "id_diputado": "126"
+      },
+      {
+        "nombre": "Ramos y Ramos Nery Abilio",
+        "id_diputado": "925"
+      },
+      {
+        "nombre": "Reyes Lee Fidel",
+        "id_diputado": "128"
+      },
+      {
+        "nombre": "Reyes Lee Edgar Raúl",
+        "id_diputado": "127"
+      },
+      {
+        "nombre": "Reyes Zeceña Andrea María",
+        "id_diputado": "913"
+      },
+      {
+        "nombre": "Rivas García Juan Ramon",
+        "id_diputado": "811"
+      },
+      {
+        "nombre": "Rivera Estévez Juan Carlos",
+        "id_diputado": "857"
+      },
+      {
+        "nombre": "Rodríguez Palacios Byron Bladimiro",
+        "id_diputado": "952"
+      },
+      {
+        "nombre": "Rosales Polanco Oswaldo",
+        "id_diputado": "874"
+      },
+      {
+        "nombre": "Samayoa Reyes Lucrecia Carola",
+        "id_diputado": "135"
+      },
+      {
+        "nombre": "Sanabria Arias José Carlos",
+        "id_diputado": "914"
+      },
+      {
+        "nombre": "Solano José Carlo",
+        "id_diputado": "958"
+      },
+      {
+        "nombre": "Tejeda Marroquín Byron Leonidas",
+        "id_diputado": "887"
+      },
+      {
+        "nombre": "Toledo Cruz José Diego",
+        "id_diputado": "960"
+      },
+      {
+        "nombre": "Tzún De León Erick José Mario",
+        "id_diputado": "954"
+      },
+      {
+        "nombre": "Velásquez Bámaca Sabino Sebastián",
+        "id_diputado": "829"
+      },
+      {
+        "nombre": "Villagrán Alvarez Jorge Mario",
+        "id_diputado": "928"
+      },
+      {
+        "nombre": "Villagrán Antón de Pantoja Andrea Beatríz",
+        "id_diputado": "155"
+      },
+      {
+        "nombre": "Zepeda Zepeda Marvin Adrián",
+        "id_diputado": "927"
+      }
+    ],
+    "contra": [],
+    "ausente": [
+      {
+        "nombre": "Maldonado Molina Ervin Adim",
+        "id_diputado": "95"
+      },
+      {
+        "nombre": "Morataya Marroquín Evelyn Oddeth",
+        "id_diputado": "828"
+      }
+    ],
+    "abstencion": []
+  },
+  "totales": {
+    "favor": 60,
+    "contra": 0,
+    "ausente": 2,
+    "abstencion": 0
+  }
+}

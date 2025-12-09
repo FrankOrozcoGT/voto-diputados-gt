@@ -1,0 +1,70 @@
+{
+  "votacionId": "47350",
+  "eventoId": "41185",
+  "sesion": {
+    "eventoId": "41185",
+    "tipo": "Ordinaria",
+    "numero": "17",
+    "descripcion": "No. 17, Fase 1, Fecha 02/04/2024 01:00:19",
+    "fecha": "02/04/2024"
+  },
+  "pregunta": "ELECCIÓN DE FERNANDO LINAREZ-BELTRANENA COMO MIEMBRO SUPLENTE EN REPRESENTACIÓN DEL CONGRESO DE LA REPÚBLICA ANTE LA JUNTA MONETARIA",
+  "iniciativa": null,
+  "votos": {
+    "favor": [],
+    "contra": [],
+    "ausente": [
+      {
+        "nombre": "Arana Roca Sergio David",
+        "id_diputado": "772"
+      },
+      {
+        "nombre": "De León Torres Nadia Lorena",
+        "id_diputado": "933"
+      },
+      {
+        "nombre": "Galindo De León José Luis",
+        "id_diputado": "819"
+      },
+      {
+        "nombre": "Guzmán Figueroa Rolando",
+        "id_diputado": "902"
+      },
+      {
+        "nombre": "Lima Pop Fidencio",
+        "id_diputado": "247"
+      },
+      {
+        "nombre": "Preciado Navarijo Vivian Beatriz",
+        "id_diputado": "122"
+      },
+      {
+        "nombre": "Rivera Estévez Juan Carlos",
+        "id_diputado": "857"
+      },
+      {
+        "nombre": "Rivera Zaldaña  Shirley Joanna",
+        "id_diputado": "785"
+      },
+      {
+        "nombre": "Rodas Méndez Nery Mamfredo",
+        "id_diputado": "931"
+      },
+      {
+        "nombre": "Villalta Pereira Olga Isabel",
+        "id_diputado": "977"
+      }
+    ],
+    "abstencion": []
+  },
+  "totales": {
+    "favor": 0,
+    "contra": 0,
+    "ausente": 10,
+    "abstencion": 0
+  },
+  "diputados_sin_id": [
+    "Orantes Thomas Ana Patricia",
+    "Tzun De León Erick José"
+  ]
+}

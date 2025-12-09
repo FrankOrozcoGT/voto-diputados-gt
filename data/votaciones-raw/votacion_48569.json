@@ -1,0 +1,231 @@
+{
+  "votacionId": "48569",
+  "eventoId": "41232",
+  "sesion": {
+    "eventoId": "41232",
+    "tipo": "Ordinaria",
+    "numero": "41",
+    "descripcion": "No. 41, Fase 1, Fecha 15/10/2024 01:01:39",
+    "fecha": "15/10/2024"
+  },
+  "pregunta": "APROBACIÓN DE PROPUESTA PARA MODIFICAR EL ORDEN DEL DÍA (REPRESENTANTE AJCIP)",
+  "iniciativa": null,
+  "votos": {
+    "favor": [
+      {
+        "nombre": "Ajcip Canel Hellen Magaly Alexandrá",
+        "id_diputado": "840"
+      },
+      {
+        "nombre": "Alejos Lorenzana Felipe",
+        "id_diputado": "2"
+      },
+      {
+        "nombre": "Arévalo Avila Sherol Ivanisse",
+        "id_diputado": "972"
+      },
+      {
+        "nombre": "Arzú Escobar Alvaro Enrique",
+        "id_diputado": "11"
+      },
+      {
+        "nombre": "Ayala Marroquín Jorge Estuardo",
+        "id_diputado": "918"
+      },
+      {
+        "nombre": "Blanco Lapola Orlando Joaquín",
+        "id_diputado": "18"
+      },
+      {
+        "nombre": "Castañasa Mendizábal Obbed Ediberto",
+        "id_diputado": "905"
+      },
+      {
+        "nombre": "Cerna Acevedo Dámaris Carolina",
+        "id_diputado": "939"
+      },
+      {
+        "nombre": "Chic Cardona José Alberto",
+        "id_diputado": "899"
+      },
+      {
+        "nombre": "Dávila Córdova César Roberto",
+        "id_diputado": "906"
+      },
+      {
+        "nombre": "De León Benítez Alberto Eduardo",
+        "id_diputado": "970"
+      },
+      {
+        "nombre": "De León Torres Nadia Lorena",
+        "id_diputado": "933"
+      },
+      {
+        "nombre": "Díaz Mazariegos Gerardín Ariel",
+        "id_diputado": "818"
+      },
+      {
+        "nombre": "Galindo de León José Luis",
+        "id_diputado": "819"
+      },
+      {
+        "nombre": "García García Cornelio Gonzalo",
+        "id_diputado": "65"
+      },
+      {
+        "nombre": "Gutierrez Raguay Sonia Marina",
+        "id_diputado": "861"
+      },
+      {
+        "nombre": "Jovel Polanco Sandra Erica",
+        "id_diputado": "898"
+      },
+      {
+        "nombre": "López Escobar Julio César",
+        "id_diputado": "789"
+      },
+      {
+        "nombre": "López Girón Carlos Enrique",
+        "id_diputado": "976"
+      },
+      {
+        "nombre": "Marroquín Cordón Laura Fabiola",
+        "id_diputado": "895"
+      },
+      {
+        "nombre": "Marroquín Godoy de Palomo Ana Lucrecia",
+        "id_diputado": "179"
+      },
+      {
+        "nombre": "Palencia Reyes Elmer Josué",
+        "id_diputado": "919"
+      },
+      {
+        "nombre": "Paz Rosales Karina Alexandra",
+        "id_diputado": "160"
+      },
+      {
+        "nombre": "Pellecer Rodríguez  Rodrigo Antonio",
+        "id_diputado": "932"
+      },
+      {
+        "nombre": "Ralda Conde Guillermo Antonio",
+        "id_diputado": "957"
+      },
+      {
+        "nombre": "Rodríguez Palacios Byron Bladimiro",
+        "id_diputado": "952"
+      },
+      {
+        "nombre": "Salazar Cordero Faver Emilio",
+        "id_diputado": "924"
+      }
+    ],
+    "contra": [],
+    "ausente": [
+      {
+        "nombre": "Aldana Reyes Héctor Adolfo",
+        "id_diputado": "943"
+      },
+      {
+        "nombre": "Alvarado Vásquez Manuel Geovany",
+        "id_diputado": "956"
+      },
+      {
+        "nombre": "Cifuentes Barragán Gladis Carolina",
+        "id_diputado": "962"
+      },
+      {
+        "nombre": "Cifuentes Barragán Guillermo Alberto",
+        "id_diputado": "776"
+      },
+      {
+        "nombre": "De la Rosa Palacios Mynor Alfonso",
+        "id_diputado": "944"
+      },
+      {
+        "nombre": "De León De León Greicy Domenica",
+        "id_diputado": "777"
+      },
+      {
+        "nombre": "Echeverría Casado Herman Otoniel",
+        "id_diputado": "884"
+      },
+      {
+        "nombre": "España Cáceres Boris Roberto",
+        "id_diputado": "54"
+      },
+      {
+        "nombre": "Leal Gómez Candido Fernando",
+        "id_diputado": "780"
+      },
+      {
+        "nombre": "Lemus Cifuentes Josué Edmundo",
+        "id_diputado": "881"
+      },
+      {
+        "nombre": "Martinez Salazar Duay Antoni",
+        "id_diputado": "781"
+      },
+      {
+        "nombre": "Mazariegos López Nery René",
+        "id_diputado": "845"
+      },
+      {
+        "nombre": "Mejía Popol Maynor Gabriel",
+        "id_diputado": "782"
+      },
+      {
+        "nombre": "Pérez Toribio Marco Alejandro",
+        "id_diputado": "945"
+      },
+      {
+        "nombre": "Portillo Cordón Ronald Yomelfy",
+        "id_diputado": "946"
+      },
+      {
+        "nombre": "Preciado Navarijo Vivian Beatriz",
+        "id_diputado": "122"
+      },
+      {
+        "nombre": "Reyes Lee Edgar Raúl",
+        "id_diputado": "127"
+      },
+      {
+        "nombre": "Rodas Cardona César Augusto",
+        "id_diputado": "901"
+      },
+      {
+        "nombre": "Rodríguez Reyes Luis Alberto",
+        "id_diputado": "966"
+      },
+      {
+        "nombre": "Rodríguez Reyes Allan Estuardo",
+        "id_diputado": "770"
+      },
+      {
+        "nombre": "Salazar Samayoa Leopoldo",
+        "id_diputado": "822"
+      },
+      {
+        "nombre": "Samayoa Reyes Lucrecia Carola",
+        "id_diputado": "135"
+      },
+      {
+        "nombre": "Tzún De León Erick José Mario",
+        "id_diputado": "954"
+      },
+      {
+        "nombre": "Valenzuela Argueta Victor Alfredo",
+        "id_diputado": "947"
+      }
+    ],
+    "abstencion": []
+  },
+  "totales": {
+    "favor": 27,
+    "contra": 0,
+    "ausente": 24,
+    "abstencion": 0
+  }
+}

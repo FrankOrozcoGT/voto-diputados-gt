@@ -1,0 +1,219 @@
+{
+  "votacionId": "48746",
+  "eventoId": "41240",
+  "sesion": {
+    "eventoId": "41240",
+    "tipo": "Ordinaria",
+    "numero": "49",
+    "descripcion": "No. 49, Fase 1, Fecha 12/11/2024 12:55:58",
+    "fecha": "12/11/2024"
+  },
+  "pregunta": "APROBACIÓN DE ENMIENDA POR ADICIÓN DE UN SEGUNDO PÁRRAFO AL ARTÍCULO 4 DEL PROYECTO DE DECRETO QUE DISPONE APROBAR LA INICIATIVA DE LEY 5704",
+  "iniciativa": "5704",
+  "votos": {
+    "favor": [
+      {
+        "nombre": "Aguirre Estrada Luis Fernando",
+        "id_diputado": "929"
+      },
+      {
+        "nombre": "Ajcip Canel Hellen Magaly Alexandrá",
+        "id_diputado": "840"
+      },
+      {
+        "nombre": "Aldana Reyes Héctor Adolfo",
+        "id_diputado": "943"
+      },
+      {
+        "nombre": "Alejos Lorenzana Felipe",
+        "id_diputado": "2"
+      },
+      {
+        "nombre": "Alvarado Vásquez Manuel Geovany",
+        "id_diputado": "956"
+      },
+      {
+        "nombre": "Arévalo Avila Sherol Ivanisse",
+        "id_diputado": "972"
+      },
+      {
+        "nombre": "Cabrera Ordóñez Jorge Mario",
+        "id_diputado": "973"
+      },
+      {
+        "nombre": "Calderon Galvez Carlos Roberto",
+        "id_diputado": "774"
+      },
+      {
+        "nombre": "Celis Navas Sergio Leonel",
+        "id_diputado": "31"
+      },
+      {
+        "nombre": "Cerna Acevedo Dámaris Carolina",
+        "id_diputado": "939"
+      },
+      {
+        "nombre": "Cifuentes Barragán Guillermo Alberto",
+        "id_diputado": "776"
+      },
+      {
+        "nombre": "Cifuentes Delgado Victor Hugo",
+        "id_diputado": "883"
+      },
+      {
+        "nombre": "Cifuentes Navarro Gustavo Adolfo",
+        "id_diputado": "961"
+      },
+      {
+        "nombre": "Escobar Castillo Kevyn Luis Carlo",
+        "id_diputado": "926"
+      },
+      {
+        "nombre": "Gálvez Muñóz  Mario Ernesto",
+        "id_diputado": "870"
+      },
+      {
+        "nombre": "García García Cornelio Gonzalo",
+        "id_diputado": "65"
+      },
+      {
+        "nombre": "Guzmán Figueroa Rolando",
+        "id_diputado": "902"
+      },
+      {
+        "nombre": "Madrazo Mazariegos Danilo",
+        "id_diputado": "967"
+      },
+      {
+        "nombre": "Marroquín Ordoñez Julio Daniel",
+        "id_diputado": "917"
+      },
+      {
+        "nombre": "Matías Santiago Marleni Lineth",
+        "id_diputado": "100"
+      },
+      {
+        "nombre": "Mazariegos López Nery René",
+        "id_diputado": "845"
+      },
+      {
+        "nombre": "Mejía Popol Maynor Gabriel",
+        "id_diputado": "782"
+      },
+      {
+        "nombre": "Orellana Sandoval Jairo Danilo",
+        "id_diputado": "923"
+      },
+      {
+        "nombre": "Pellecer Rodríguez  Rodrigo Antonio",
+        "id_diputado": "932"
+      },
+      {
+        "nombre": "Ramírez Cameros Darwin Edgardo",
+        "id_diputado": "922"
+      },
+      {
+        "nombre": "Reyes Lee Edgar Raúl",
+        "id_diputado": "127"
+      },
+      {
+        "nombre": "Rodas Méndez Nery Mamfredo",
+        "id_diputado": "931"
+      },
+      {
+        "nombre": "Rodríguez Palacios Byron Bladimiro",
+        "id_diputado": "952"
+      },
+      {
+        "nombre": "Tejeda Marroquín Byron Leonidas",
+        "id_diputado": "887"
+      },
+      {
+        "nombre": "Valenzuela Argueta Victor Alfredo",
+        "id_diputado": "947"
+      },
+      {
+        "nombre": "Villagrán Alvarez Jorge Mario",
+        "id_diputado": "928"
+      },
+      {
+        "nombre": "Zepeda Zepeda Marvin Adrián",
+        "id_diputado": "927"
+      }
+    ],
+    "contra": [],
+    "ausente": [
+      {
+        "nombre": "Amézquita Del Valle César Augusto",
+        "id_diputado": "948"
+      },
+      {
+        "nombre": "Castro Delgado Jorge Romeo",
+        "id_diputado": "842"
+      },
+      {
+        "nombre": "De León Torres Nadia Lorena",
+        "id_diputado": "933"
+      },
+      {
+        "nombre": "España Cáceres Boris Roberto",
+        "id_diputado": "54"
+      },
+      {
+        "nombre": "Estrada Domínguez Julio Héctor",
+        "id_diputado": "930"
+      },
+      {
+        "nombre": "Galindo de León José Luis",
+        "id_diputado": "819"
+      },
+      {
+        "nombre": "Gutierrez Raguay Sonia Marina",
+        "id_diputado": "861"
+      },
+      {
+        "nombre": "Javier Javier Esduín Jerson",
+        "id_diputado": "892"
+      },
+      {
+        "nombre": "Lemus Cifuentes Josué Edmundo",
+        "id_diputado": "881"
+      },
+      {
+        "nombre": "López Escobar Julio César",
+        "id_diputado": "789"
+      },
+      {
+        "nombre": "Preciado Navarijo Vivian Beatriz",
+        "id_diputado": "122"
+      },
+      {
+        "nombre": "Samayoa Reyes Lucrecia Carola",
+        "id_diputado": "135"
+      },
+      {
+        "nombre": "Sanabria Arias José Carlos",
+        "id_diputado": "914"
+      },
+      {
+        "nombre": "Toledo Cruz José Diego",
+        "id_diputado": "960"
+      },
+      {
+        "nombre": "Velásquez Bámaca Sabino Sebastián",
+        "id_diputado": "829"
+      },
+      {
+        "nombre": "Ventura Urbina Luis Enrique",
+        "id_diputado": "978"
+      }
+    ],
+    "abstencion": []
+  },
+  "totales": {
+    "favor": 32,
+    "contra": 0,
+    "ausente": 16,
+    "abstencion": 0
+  }
+}

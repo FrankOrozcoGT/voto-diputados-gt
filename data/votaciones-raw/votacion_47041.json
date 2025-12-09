@@ -1,0 +1,79 @@
+{
+  "votacionId": "47041",
+  "eventoId": "41177",
+  "sesion": {
+    "eventoId": "41177",
+    "tipo": "Ordinaria",
+    "numero": "9",
+    "descripcion": "No. 9, Fase 1, Fecha 15/02/2024 09:03:48",
+    "fecha": "15/02/2024"
+  },
+  "pregunta": "APROBACIÓN DE ENMIENDA POR ADICIÓN AL ARTÍCULO 39 DEL PROYECTO DE DECRETO QUE DISPONE APROBAR LA INICIATIVA DE LEY 5544",
+  "iniciativa": "5544",
+  "votos": {
+    "favor": [
+      {
+        "nombre": "Corleto Rivera Oscar Rolando",
+        "id_diputado": "41"
+      }
+    ],
+    "contra": [],
+    "ausente": [
+      {
+        "nombre": "Arana Roca Sergio David",
+        "id_diputado": "772"
+      },
+      {
+        "nombre": "Caceres Gamarro Luis Antonio",
+        "id_diputado": "908"
+      },
+      {
+        "nombre": "Castañon González Manfredo Duvalier",
+        "id_diputado": "934"
+      },
+      {
+        "nombre": "Castro Delgado Jorge Romeo",
+        "id_diputado": "842"
+      },
+      {
+        "nombre": "Galindo De León José Luis",
+        "id_diputado": "819"
+      },
+      {
+        "nombre": "Gálvez Muñoz  Mario Ernesto",
+        "id_diputado": "870"
+      },
+      {
+        "nombre": "Maldonado Alonzo Vasny Adiel",
+        "id_diputado": "802"
+      },
+      {
+        "nombre": "Mazariegos López Nery René",
+        "id_diputado": "845"
+      },
+      {
+        "nombre": "Preciado Navarijo Vivian Beatriz",
+        "id_diputado": "122"
+      },
+      {
+        "nombre": "Ramírez Retana Thelma Elizabeth",
+        "id_diputado": "126"
+      },
+      {
+        "nombre": "Velásquez Bámaca Sabino Sebastián",
+        "id_diputado": "829"
+      }
+    ],
+    "abstencion": []
+  },
+  "totales": {
+    "favor": 1,
+    "contra": 0,
+    "ausente": 11,
+    "abstencion": 0
+  },
+  "diputados_sin_id": [
+    "Orantes Thomas Ana Patricia",
+    "Tzun De León Erick José"
+  ]
+}

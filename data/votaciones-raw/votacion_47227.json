@@ -1,0 +1,227 @@
+{
+  "votacionId": "47227",
+  "eventoId": "41184",
+  "sesion": {
+    "eventoId": "41184",
+    "tipo": "Ordinaria",
+    "numero": "16",
+    "descripcion": "No. 16, Fase 1, Fecha 14/03/2024 08:55:57",
+    "fecha": "14/03/2024"
+  },
+  "pregunta": "ELECCIÓN DE FERNANDO LINAREZ-BELTRANENA COMO MIEMBRO TITULAR EN REPRESENTACIÓN DEL CONGRESO DE LA REPÚBLICA ANTE LA JUNTA MONETARIA",
+  "iniciativa": null,
+  "votos": {
+    "favor": [
+      {
+        "nombre": "Alejos Lorenzana Felipe",
+        "id_diputado": "2"
+      },
+      {
+        "nombre": "Alvarado Vásquez Manuel Geovany",
+        "id_diputado": "956"
+      },
+      {
+        "nombre": "Arzú Escobar Alvaro Enrique",
+        "id_diputado": "11"
+      },
+      {
+        "nombre": "Calderon Galvez Carlos Roberto",
+        "id_diputado": "774"
+      },
+      {
+        "nombre": "De León Torres Nadia Lorena",
+        "id_diputado": "933"
+      },
+      {
+        "nombre": "De León Torres Lourdes Teresita",
+        "id_diputado": "940"
+      },
+      {
+        "nombre": "Díaz Mazariegos Gerardín Ariel",
+        "id_diputado": "818"
+      },
+      {
+        "nombre": "García García Cornelio Gonzalo",
+        "id_diputado": "65"
+      },
+      {
+        "nombre": "Guardado Linares de Nájera Mercedes Cristabel",
+        "id_diputado": "904"
+      },
+      {
+        "nombre": "Lemus Cifuentes Josué Edmundo",
+        "id_diputado": "881"
+      },
+      {
+        "nombre": "López Escobar Julio César",
+        "id_diputado": "789"
+      },
+      {
+        "nombre": "Lucero Vásquez Jaime Octavio Augusto",
+        "id_diputado": "93"
+      },
+      {
+        "nombre": "Marroquín Godoy de Palomo Ana Lucrecia",
+        "id_diputado": "179"
+      },
+      {
+        "nombre": "Martínez Alarcón Ricardo Leonel",
+        "id_diputado": "964"
+      },
+      {
+        "nombre": "Martínez Salazar Duay Antoni",
+        "id_diputado": "781"
+      },
+      {
+        "nombre": "Mejía Popol Maynor Gabriel",
+        "id_diputado": "782"
+      },
+      {
+        "nombre": "Palencia Reyes Elmer Josué",
+        "id_diputado": "919"
+      },
+      {
+        "nombre": "Portillo Cordón Ronald Yomelfy",
+        "id_diputado": "946"
+      },
+      {
+        "nombre": "Reyes Lee Edgar Raul",
+        "id_diputado": "127"
+      },
+      {
+        "nombre": "Rivas García Juan Ramón",
+        "id_diputado": "811"
+      },
+      {
+        "nombre": "Rodríguez Reyes Allan Estuardo",
+        "id_diputado": "770"
+      },
+      {
+        "nombre": "Rojas Alarcón Carlos Napoleón",
+        "id_diputado": "130"
+      },
+      {
+        "nombre": "Salazar Samayoa Leopoldo",
+        "id_diputado": "822"
+      },
+      {
+        "nombre": "Tzun De León Erick José",
+        "id_diputado": null
+      },
+      {
+        "nombre": "Valenzuela Argueta Victor Alfredo",
+        "id_diputado": "947"
+      }
+    ],
+    "contra": [],
+    "ausente": [
+      {
+        "nombre": "Arévalo Ávila Sherol Ivanisse",
+        "id_diputado": "972"
+      },
+      {
+        "nombre": "Barragan Morales Gerson Geovanny",
+        "id_diputado": "969"
+      },
+      {
+        "nombre": "Blanco Lapola Orlando Joaquín",
+        "id_diputado": "18"
+      },
+      {
+        "nombre": "Bonilla Gonzalez Victor Vicente",
+        "id_diputado": "891"
+      },
+      {
+        "nombre": "Cua Tumin Raul Arnulfo",
+        "id_diputado": "889"
+      },
+      {
+        "nombre": "Dávila Cordova Cesar Roberto",
+        "id_diputado": "906"
+      },
+      {
+        "nombre": "Enríquez Garzaro Sergio Guillermo",
+        "id_diputado": "941"
+      },
+      {
+        "nombre": "España Cáceres Boris Roberto",
+        "id_diputado": "54"
+      },
+      {
+        "nombre": "Flores Divas Jairo Joaquín",
+        "id_diputado": "61"
+      },
+      {
+        "nombre": "Guerrero de la Cruz Alma Luz",
+        "id_diputado": "935"
+      },
+      {
+        "nombre": "Gutiérrez Raguay Sonia Marina",
+        "id_diputado": "861"
+      },
+      {
+        "nombre": "Lima Pop Fidencio",
+        "id_diputado": "247"
+      },
+      {
+        "nombre": "Luján Padilla Ivanna María",
+        "id_diputado": "911"
+      },
+      {
+        "nombre": "Martínez Juarez Christian Joel",
+        "id_diputado": "921"
+      },
+      {
+        "nombre": "Morataya Marroquín Evelyn Oddeth",
+        "id_diputado": "828"
+      },
+      {
+        "nombre": "Nicolás Segundo Martín",
+        "id_diputado": "806"
+      },
+      {
+        "nombre": "Obregón Castañeda Byron Alesky",
+        "id_diputado": "937"
+      },
+      {
+        "nombre": "Ochaeta Aguilar Ronalth Ivan",
+        "id_diputado": "912"
+      },
+      {
+        "nombre": "Pereira Delgado Rudy Berner",
+        "id_diputado": "117"
+      },
+      {
+        "nombre": "Quijada Heredia Juán Ignacio",
+        "id_diputado": "809"
+      },
+      {
+        "nombre": "Reyes Lee Fidel",
+        "id_diputado": "128"
+      },
+      {
+        "nombre": "Rosales Polanco Oswaldo",
+        "id_diputado": "874"
+      },
+      {
+        "nombre": "Samayoa Reyes Lucrecia Carola",
+        "id_diputado": "135"
+      },
+      {
+        "nombre": "Velásquez Bámaca Sabino Sebastián",
+        "id_diputado": "829"
+      }
+    ],
+    "abstencion": []
+  },
+  "totales": {
+    "favor": 25,
+    "contra": 0,
+    "ausente": 24,
+    "abstencion": 0
+  },
+  "diputados_sin_id": [
+    "Tzun De León Erick José",
+    "Orantes Thomas Ana Patricia"
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "votacionId": "47033",
+  "eventoId": "41177",
+  "sesion": {
+    "eventoId": "41177",
+    "tipo": "Ordinaria",
+    "numero": "9",
+    "descripcion": "No. 9, Fase 1, Fecha 15/02/2024 09:03:48",
+    "fecha": "15/02/2024"
+  },
+  "pregunta": "APROBACIÓN DE ENMIENDA POR SUPRESIÓN PARCIAL DEL ARTÍCULO 11 DEL PROYECTO DE DECRETO QUE DISPONE APROBAR LA INICIATIVA DE LEY 5544",
+  "iniciativa": "5544",
+  "votos": {
+    "favor": [
+      {
+        "nombre": "Flores Divas Jairo Joaquín",
+        "id_diputado": "61"
+      }
+    ],
+    "contra": [],
+    "ausente": [
+      {
+        "nombre": "Arana Roca Sergio David",
+        "id_diputado": "772"
+      },
+      {
+        "nombre": "Castro Delgado Jorge Romeo",
+        "id_diputado": "842"
+      },
+      {
+        "nombre": "Chic Cardona Jose Alberto",
+        "id_diputado": "899"
+      },
+      {
+        "nombre": "Dominguez Orozco Jeovanni Omar",
+        "id_diputado": "963"
+      },
+      {
+        "nombre": "España Cáceres Boris Roberto",
+        "id_diputado": "54"
+      },
+      {
+        "nombre": "Galindo De León José Luis",
+        "id_diputado": "819"
+      },
+      {
+        "nombre": "Gálvez Muñoz  Mario Ernesto",
+        "id_diputado": "870"
+      },
+      {
+        "nombre": "Jovel Polanco Sandra Erica",
+        "id_diputado": "898"
+      },
+      {
+        "nombre": "Luján Padilla Ivanna María",
+        "id_diputado": "911"
+      },
+      {
+        "nombre": "Maldonado Alonzo Vasny Adiel",
+        "id_diputado": "802"
+      },
+      {
+        "nombre": "Nicolás Segundo Martín",
+        "id_diputado": "806"
+      },
+      {
+        "nombre": "Preciado Navarijo Vivian Beatriz",
+        "id_diputado": "122"
+      },
+      {
+        "nombre": "Ramírez Retana Thelma Elizabeth",
+        "id_diputado": "126"
+      },
+      {
+        "nombre": "Rivera Zaldaña  Shirley Joanna",
+        "id_diputado": "785"
+      },
+      {
+        "nombre": "Velásquez Bámaca Sabino Sebastián",
+        "id_diputado": "829"
+      }
+    ],
+    "abstencion": []
+  },
+  "totales": {
+    "favor": 1,
+    "contra": 0,
+    "ausente": 15,
+    "abstencion": 0
+  },
+  "diputados_sin_id": [
+    "Orantes Thomas Ana Patricia",
+    "Tzun De León Erick José"
+  ]
+}

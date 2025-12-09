@@ -1,0 +1,67 @@
+{
+  "votacionId": "47900",
+  "eventoId": "41228",
+  "sesion": {
+    "eventoId": "41228",
+    "tipo": "Ordinaria",
+    "numero": "40",
+    "descripcion": "No. 40, Fase 1, Fecha 03/10/2024 09:18:00",
+    "fecha": "03/10/2024"
+  },
+  "pregunta": "ELECCIÓN DE CÉSAR AUGUSTO ÁVILA APARICIO COMO MAGISTRADO DE LA CORTE SUPREMA DE JUSTICIA",
+  "iniciativa": null,
+  "votos": {
+    "favor": [
+      {
+        "nombre": "Bran Colindres Ernesto",
+        "id_diputado": "900"
+      },
+      {
+        "nombre": "De León Benítez Alberto Eduardo",
+        "id_diputado": "970"
+      },
+      {
+        "nombre": "España Cáceres Boris Roberto",
+        "id_diputado": "54"
+      },
+      {
+        "nombre": "Galindo de León José Luis",
+        "id_diputado": "819"
+      },
+      {
+        "nombre": "García Barrios José Arnulfo",
+        "id_diputado": "788"
+      },
+      {
+        "nombre": "Orellana Cruz Sandra Carolina",
+        "id_diputado": "790"
+      },
+      {
+        "nombre": "Pellecer Rodríguez  Rodrigo Antonio",
+        "id_diputado": "932"
+      },
+      {
+        "nombre": "Portillo Paz Julio César",
+        "id_diputado": "974"
+      },
+      {
+        "nombre": "Samayoa Reyes Lucrecia Carola",
+        "id_diputado": "135"
+      }
+    ],
+    "contra": [],
+    "ausente": [
+      {
+        "nombre": "Amézquita Del Valle César Augusto",
+        "id_diputado": "948"
+      }
+    ],
+    "abstencion": []
+  },
+  "totales": {
+    "favor": 9,
+    "contra": 0,
+    "ausente": 1,
+    "abstencion": 0
+  }
+}

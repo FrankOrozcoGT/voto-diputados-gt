@@ -1,0 +1,135 @@
+{
+  "votacionId": "47323",
+  "eventoId": "41184",
+  "sesion": {
+    "eventoId": "41184",
+    "tipo": "Ordinaria",
+    "numero": "16",
+    "descripcion": "No. 16, Fase 1, Fecha 14/03/2024 08:55:57",
+    "fecha": "14/03/2024"
+  },
+  "pregunta": "ADMISIÓN DEL DICTAMEN FAVORABLE DE LA COMISIÓN DE DEFENSA NACIONAL",
+  "iniciativa": null,
+  "votos": {
+    "favor": [
+      {
+        "nombre": "Lam Ruano Francisco Vitelio",
+        "id_diputado": "86"
+      }
+    ],
+    "contra": [],
+    "ausente": [
+      {
+        "nombre": "Amézquita del Valle Cesar Augusto",
+        "id_diputado": "948"
+      },
+      {
+        "nombre": "Arévalo Ávila Sherol Ivanisse",
+        "id_diputado": "972"
+      },
+      {
+        "nombre": "Blanco Lapola Orlando Joaquín",
+        "id_diputado": "18"
+      },
+      {
+        "nombre": "Castañasa Mendizabal Obbed Ediberto",
+        "id_diputado": "905"
+      },
+      {
+        "nombre": "Corleto Rivera Oscar Rolando",
+        "id_diputado": "41"
+      },
+      {
+        "nombre": "Crúz Montoya Gustavo Adolfo",
+        "id_diputado": "826"
+      },
+      {
+        "nombre": "Cua Tumin Raul Arnulfo",
+        "id_diputado": "889"
+      },
+      {
+        "nombre": "Dávila Cordova Cesar Roberto",
+        "id_diputado": "906"
+      },
+      {
+        "nombre": "España Cáceres Boris Roberto",
+        "id_diputado": "54"
+      },
+      {
+        "nombre": "Fión Morales César Augusto",
+        "id_diputado": "796"
+      },
+      {
+        "nombre": "Flores Divas Jairo Joaquín",
+        "id_diputado": "61"
+      },
+      {
+        "nombre": "Guerrero de la Cruz Alma Luz",
+        "id_diputado": "935"
+      },
+      {
+        "nombre": "Lemus Cifuentes Josué Edmundo",
+        "id_diputado": "881"
+      },
+      {
+        "nombre": "Luján Padilla Ivanna María",
+        "id_diputado": "911"
+      },
+      {
+        "nombre": "Matías Santiago Marleni Lineth",
+        "id_diputado": "100"
+      },
+      {
+        "nombre": "Motta Kolleff Elena Sofía",
+        "id_diputado": "897"
+      },
+      {
+        "nombre": "Nicolás Segundo Martín",
+        "id_diputado": "806"
+      },
+      {
+        "nombre": "Ochaeta Aguilar Ronalth Ivan",
+        "id_diputado": "912"
+      },
+      {
+        "nombre": "Pereira Delgado Rudy Berner",
+        "id_diputado": "117"
+      },
+      {
+        "nombre": "Quijada Heredia Juán Ignacio",
+        "id_diputado": "809"
+      },
+      {
+        "nombre": "Reyes Lee Fidel",
+        "id_diputado": "128"
+      },
+      {
+        "nombre": "Rivera Zaldaña  Shirley Joanna",
+        "id_diputado": "785"
+      },
+      {
+        "nombre": "Samayoa Reyes Lucrecia Carola",
+        "id_diputado": "135"
+      },
+      {
+        "nombre": "Tebelan Pantzay Marcos Eduardo",
+        "id_diputado": "955"
+      },
+      {
+        "nombre": "Velásquez Bámaca Sabino Sebastián",
+        "id_diputado": "829"
+      }
+    ],
+    "abstencion": []
+  },
+  "totales": {
+    "favor": 1,
+    "contra": 0,
+    "ausente": 25,
+    "abstencion": 0
+  },
+  "diputados_sin_id": [
+    "Orantes Thomas Ana Patricia",
+    "Tzun De León Erick José"
+  ]
+}

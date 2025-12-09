@@ -1,0 +1,497 @@
+{
+  "votacionId": "46867",
+  "eventoId": "41167",
+  "sesion": {
+    "eventoId": "41167",
+    "tipo": "Solemne",
+    "numero": "4",
+    "descripcion": "No. 4, Fase 1, Fecha 14/01/2024 07:06:15",
+    "fecha": "14/01/2024"
+  },
+  "pregunta": "APROBACIÓN DE ENMIENDA POR ADICIÓN DE UN  PUNTO A CONTINUACIÓN DEL PUNTO SEGUNDO DEL PROYECTO DE ACUERDO RELATIVO A LA CALIFICACIÓN DE CREDENCIALES",
+  "iniciativa": null,
+  "votos": {
+    "favor": [
+      {
+        "nombre": "Ajcip Canel Hellen Magaly Alexandra",
+        "id_diputado": "840"
+      },
+      {
+        "nombre": "Alejos Lorenzana Felipe",
+        "id_diputado": "2"
+      },
+      {
+        "nombre": "Alvarado Morales Marvin Estuardo",
+        "id_diputado": null
+      },
+      {
+        "nombre": "Arreaga Alonzo Byron Wilfredo",
+        "id_diputado": null
+      },
+      {
+        "nombre": "Calderon Galvez Carlos Roberto",
+        "id_diputado": "774"
+      },
+      {
+        "nombre": "Callejas Oto Leonel",
+        "id_diputado": null
+      },
+      {
+        "nombre": "Caniz Ajpacajá Alfredo Adolfo",
+        "id_diputado": null
+      },
+      {
+        "nombre": "Castillo y Castillo Maynor Estuardo",
+        "id_diputado": "787"
+      },
+      {
+        "nombre": "Cifuentes Barragán Guillermo Alberto",
+        "id_diputado": "776"
+      },
+      {
+        "nombre": "Conde Orellana Manuel Eduardo",
+        "id_diputado": null
+      },
+      {
+        "nombre": "De León De León de Pérez Greicy Domenica",
+        "id_diputado": "895"
+      },
+      {
+        "nombre": "De León Maldonado José Alejandro",
+        "id_diputado": null
+      },
+      {
+        "nombre": "Dubón García Edgar Rubén",
+        "id_diputado": null
+      },
+      {
+        "nombre": "España Cáceres Boris Roberto",
+        "id_diputado": "54"
+      },
+      {
+        "nombre": "Gálvez Muñoz  Mario Ernesto",
+        "id_diputado": "870"
+      },
+      {
+        "nombre": "García Barrios José Arnulfo",
+        "id_diputado": "788"
+      },
+      {
+        "nombre": "García García Cornelio Gonzalo",
+        "id_diputado": "65"
+      },
+      {
+        "nombre": "Hernández Herrera Sofía Jeanetth",
+        "id_diputado": "78"
+      },
+      {
+        "nombre": "Leal Gómez Candido Fernando",
+        "id_diputado": "780"
+      },
+      {
+        "nombre": "Lemus Cifuentes Josué Edmundo",
+        "id_diputado": "881"
+      },
+      {
+        "nombre": "Longo Maldonado Julio César",
+        "id_diputado": null
+      },
+      {
+        "nombre": "López Escobar Julio César",
+        "id_diputado": "789"
+      },
+      {
+        "nombre": "López Maldonado Carlos Enrique",
+        "id_diputado": "92"
+      },
+      {
+        "nombre": "Lucero Vásquez Jaime Octavio Augusto",
+        "id_diputado": "93"
+      },
+      {
+        "nombre": "Marroquín Godoy de Palomo Ana Lucrecia",
+        "id_diputado": "179"
+      },
+      {
+        "nombre": "Martínez Hernández Erick Geovany",
+        "id_diputado": "793"
+      },
+      {
+        "nombre": "Martínez Herrera Joel Rubén",
+        "id_diputado": "99"
+      },
+      {
+        "nombre": "Martínez Salazar Duay Antoni",
+        "id_diputado": "781"
+      },
+      {
+        "nombre": "Mejía Popol Maynor Gabriel",
+        "id_diputado": "782"
+      },
+      {
+        "nombre": "Mendoza  Wilmer Rolando",
+        "id_diputado": null
+      },
+      {
+        "nombre": "Menendez Anguiano Efrain",
+        "id_diputado": null
+      },
+      {
+        "nombre": "Mérida Contreras Juan Francisco",
+        "id_diputado": null
+      },
+      {
+        "nombre": "Muñoz Cifuentes Flavio Valdemar",
+        "id_diputado": null
+      },
+      {
+        "nombre": "Oliva Aguilar Merana Esperanza",
+        "id_diputado": null
+      },
+      {
+        "nombre": "Orellana Cruz Sandra Carolina",
+        "id_diputado": "790"
+      },
+      {
+        "nombre": "Pereira Delgado Rudy Berner",
+        "id_diputado": "117"
+      },
+      {
+        "nombre": "Ramírez Retana Thelma Elizabeth",
+        "id_diputado": "126"
+      },
+      {
+        "nombre": "Reyes Lee Edgar Raul",
+        "id_diputado": "127"
+      },
+      {
+        "nombre": "Rivas García Juan Ramón",
+        "id_diputado": "811"
+      },
+      {
+        "nombre": "Rivera Zaldaña  Shirley Joanna",
+        "id_diputado": "785"
+      },
+      {
+        "nombre": "Rivero Mérida Douglas",
+        "id_diputado": null
+      },
+      {
+        "nombre": "Rodas Lucero Juan Carlos",
+        "id_diputado": null
+      },
+      {
+        "nombre": "Rodríguez Reyes Allan Estuardo",
+        "id_diputado": "770"
+      },
+      {
+        "nombre": "Rojas Alarcón Carlos Napoleón",
+        "id_diputado": "130"
+      },
+      {
+        "nombre": "Rojas Espino Aníbal Estuardo",
+        "id_diputado": null
+      },
+      {
+        "nombre": "Rosales Polanco Oswaldo",
+        "id_diputado": "874"
+      },
+      {
+        "nombre": "Salazar Samayoa Leopoldo",
+        "id_diputado": "822"
+      },
+      {
+        "nombre": "Samayoa Curiales Marvin Estuardo",
+        "id_diputado": null
+      },
+      {
+        "nombre": "Tzep Rosario Manuel",
+        "id_diputado": null
+      }
+    ],
+    "contra": [],
+    "ausente": [
+      {
+        "nombre": "Aguilar López Aree Alvin",
+        "id_diputado": null
+      },
+      {
+        "nombre": "Anshelm-Moller Velásquez Julia Izabel",
+        "id_diputado": null
+      },
+      {
+        "nombre": "Arenales Forno Antonio Fernando",
+        "id_diputado": null
+      },
+      {
+        "nombre": "Arévalo De León César Bernardo",
+        "id_diputado": null
+      },
+      {
+        "nombre": "Argueta Mayén Oscar Arturo",
+        "id_diputado": null
+      },
+      {
+        "nombre": "Azurdia Fernández Mario René",
+        "id_diputado": null
+      },
+      {
+        "nombre": "Barahona Morales José Gabriel",
+        "id_diputado": null
+      },
+      {
+        "nombre": "Barreda Taracena Carlos Alberto",
+        "id_diputado": null
+      },
+      {
+        "nombre": "Castellanos Pinelo de Pineda María Eugenia",
+        "id_diputado": null
+      },
+      {
+        "nombre": "Chinchilla Guzmán Oscar Stuardo",
+        "id_diputado": null
+      },
+      {
+        "nombre": "Choc Caal Hector Manuel",
+        "id_diputado": null
+      },
+      {
+        "nombre": "Cordón Orellana Luis Fernando",
+        "id_diputado": null
+      },
+      {
+        "nombre": "Escobar Calderón Rubén Misael",
+        "id_diputado": null
+      },
+      {
+        "nombre": "Figueroa Gil Andy Arnoldo",
+        "id_diputado": null
+      },
+      {
+        "nombre": "Figueroa Pérez Herbert Salvador",
+        "id_diputado": null
+      },
+      {
+        "nombre": "García Contreras Lilian Piedad",
+        "id_diputado": null
+      },
+      {
+        "nombre": "García Silva Jorge Adolfo De Jesús",
+        "id_diputado": null
+      },
+      {
+        "nombre": "Girón Montiel Angel Iván",
+        "id_diputado": null
+      },
+      {
+        "nombre": "González Alvarado Diego Israel",
+        "id_diputado": null
+      },
+      {
+        "nombre": "González Cardona  Rudy Wostbeli",
+        "id_diputado": null
+      },
+      {
+        "nombre": "González Velásquez Angel Francisco",
+        "id_diputado": null
+      },
+      {
+        "nombre": "Guerra Gálvez Jeniffer Gabriela Marcelina",
+        "id_diputado": null
+      },
+      {
+        "nombre": "Guerra Velásquez Victor Israel",
+        "id_diputado": null
+      },
+      {
+        "nombre": "Ixcamey Velásquez Julio",
+        "id_diputado": null
+      },
+      {
+        "nombre": "Lainfiesta Rímola Julio Francisco",
+        "id_diputado": null
+      },
+      {
+        "nombre": "Maldonado Trujillo Emilio de Jesús",
+        "id_diputado": null
+      },
+      {
+        "nombre": "Martínez Hernández Karla Andrea",
+        "id_diputado": null
+      },
+      {
+        "nombre": "Mazariegos Quej Ernesto Omar",
+        "id_diputado": null
+      },
+      {
+        "nombre": "Mejía Chutá de Lara Petrona",
+        "id_diputado": null
+      },
+      {
+        "nombre": "Mencos Morales Carlos Enrique",
+        "id_diputado": null
+      },
+      {
+        "nombre": "Mérida Herrera Rudio Lecsan",
+        "id_diputado": null
+      },
+      {
+        "nombre": "Morán Mejía Hernán",
+        "id_diputado": null
+      },
+      {
+        "nombre": "Nájera Sagastume Carlos Santiago",
+        "id_diputado": null
+      },
+      {
+        "nombre": "Palencia Escobar Félix Danilo",
+        "id_diputado": null
+      },
+      {
+        "nombre": "Pineda Lemus Luis Fernando",
+        "id_diputado": null
+      },
+      {
+        "nombre": "Poroj Orellana Yesmin María",
+        "id_diputado": null
+      },
+      {
+        "nombre": "Ríos Gamarro Aroldo José",
+        "id_diputado": null
+      },
+      {
+        "nombre": "Rodríguez-Azpuru Ordoñez Gustavo Estuardo",
+        "id_diputado": null
+      },
+      {
+        "nombre": "Sánchez Guzmán José Alberto",
+        "id_diputado": null
+      },
+      {
+        "nombre": "Sandoval González Sandra Patricia",
+        "id_diputado": null
+      },
+      {
+        "nombre": "Taracena Díaz-Sol Mario",
+        "id_diputado": null
+      },
+      {
+        "nombre": "Vargas Morales Jorge Estuardo",
+        "id_diputado": null
+      },
+      {
+        "nombre": "Zachrisson Castillo Eduardo",
+        "id_diputado": null
+      },
+      {
+        "nombre": "Zamora Barillas José Francísco",
+        "id_diputado": null
+      }
+    ],
+    "abstencion": []
+  },
+  "totales": {
+    "favor": 49,
+    "contra": 0,
+    "ausente": 44,
+    "abstencion": 0
+  },
+  "diputados_sin_id": [
+    "Alvarado Morales Marvin Estuardo",
+    "Arreaga Alonzo Byron Wilfredo",
+    "Callejas Oto Leonel",
+    "Caniz Ajpacajá Alfredo Adolfo",
+    "Conde Orellana Manuel Eduardo",
+    "De León Maldonado José Alejandro",
+    "Dubón García Edgar Rubén",
+    "Longo Maldonado Julio César",
+    "Mendoza  Wilmer Rolando",
+    "Menendez Anguiano Efrain",
+    "Mérida Contreras Juan Francisco",
+    "Muñoz Cifuentes Flavio Valdemar",
+    "Oliva Aguilar Merana Esperanza",
+    "Rivero Mérida Douglas",
+    "Rodas Lucero Juan Carlos",
+    "Rojas Espino Aníbal Estuardo",
+    "Samayoa Curiales Marvin Estuardo",
+    "Tzep Rosario Manuel",
+    "Batres Vides Edgar Stuardo",
+    "Berreondo Zavala Dalio José",
+    "Castillo Alvarado Armando Damián",
+    "Castillo Santos Napoleon",
+    "Chacón Tarot Sergio Leonid",
+    "Chen Yat Mario",
+    "Davila Morales Aldo Iván",
+    "Félix López Walter Rolando",
+    "Figueroa Rodas Madeleine Samantha",
+    "Hernández Franco Javier Alfonso",
+    "Hernández Gómez  Ligia Iveth",
+    "Jerónimo Jiménez Vicenta",
+    "Juárez Alfaro Olga Marina",
+    "Ligorría Galicia Keven Ivan",
+    "Lux Edwin",
+    "Matta Bailón Sergio Estuardo",
+    "Melgar Padilla Herber Armando",
+    "Montano Méndez Julio Enrique",
+    "Montepeque González Edgar Eduardo",
+    "Neutze Aguirre José Rodolfo",
+    "Pérez y Pérez Adán",
+    "Ponce Serrano Osmundo René",
+    "Rivera Estévez  Manuel de Jesús",
+    "Rivera Nájera José Alberto",
+    "Saloj Quisquiná Pedro",
+    "Samayoa Alvarado Anibal Estuardo",
+    "Soch Vásquez Mariano Eulises",
+    "Valenzuela de Paz Lesly",
+    "Zamora Ruíz Lazaro Vinicio",
+    "Aguilar López Aree Alvin",
+    "Anshelm-Moller Velásquez Julia Izabel",
+    "Arenales Forno Antonio Fernando",
+    "Arévalo De León César Bernardo",
+    "Argueta Mayén Oscar Arturo",
+    "Azurdia Fernández Mario René",
+    "Barahona Morales José Gabriel",
+    "Barreda Taracena Carlos Alberto",
+    "Castellanos Pinelo de Pineda María Eugenia",
+    "Chinchilla Guzmán Oscar Stuardo",
+    "Choc Caal Hector Manuel",
+    "Cordón Orellana Luis Fernando",
+    "Escobar Calderón Rubén Misael",
+    "Figueroa Gil Andy Arnoldo",
+    "Figueroa Pérez Herbert Salvador",
+    "García Contreras Lilian Piedad",
+    "García Silva Jorge Adolfo De Jesús",
+    "Girón Montiel Angel Iván",
+    "González Alvarado Diego Israel",
+    "González Cardona  Rudy Wostbeli",
+    "González Velásquez Angel Francisco",
+    "Guerra Gálvez Jeniffer Gabriela Marcelina",
+    "Guerra Velásquez Victor Israel",
+    "Ixcamey Velásquez Julio",
+    "Lainfiesta Rímola Julio Francisco",
+    "Maldonado Trujillo Emilio de Jesús",
+    "Martínez Hernández Karla Andrea",
+    "Mazariegos Quej Ernesto Omar",
+    "Mejía Chutá de Lara Petrona",
+    "Mencos Morales Carlos Enrique",
+    "Mérida Herrera Rudio Lecsan",
+    "Morán Mejía Hernán",
+    "Nájera Sagastume Carlos Santiago",
+    "Palencia Escobar Félix Danilo",
+    "Pineda Lemus Luis Fernando",
+    "Poroj Orellana Yesmin María",
+    "Ríos Gamarro Aroldo José",
+    "Rodríguez-Azpuru Ordoñez Gustavo Estuardo",
+    "Sánchez Guzmán José Alberto",
+    "Sandoval González Sandra Patricia",
+    "Taracena Díaz-Sol Mario",
+    "Vargas Morales Jorge Estuardo",
+    "Zachrisson Castillo Eduardo",
+    "Zamora Barillas José Francísco",
+    "Barrios Galindo Esteban Rubén",
+    "De León Teo Sandra Lorena",
+    "Guzmán Velásquez Daisy Anayté",
+    "Sanchinel Palma Luis Fernando",
+    "Ubico Aguilar José Armando"
+  ]
+}
