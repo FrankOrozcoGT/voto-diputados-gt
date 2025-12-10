@@ -25,3 +25,4 @@ pnpm-debug.log*
 
 # temporary scraping files
 .tmp/
+data/iniciativas-pdf/*.pdf

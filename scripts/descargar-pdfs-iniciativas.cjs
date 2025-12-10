@@ -7,7 +7,7 @@ const { PDFParse } = require('pdf-parse');
 const execPromise = promisify(exec);
 
 // Cookie de autenticación (actualizar si expira)
-const COOKIE = 'nlbi_2893948=QqkkQAvUzkSDg3tjJxHjPQAAAADvMB60HSlW6nOBL1SY41vG; incap_ses_1597_2893948=lbJBd7/RQXUGrQKV3kJxFnzFEGcAAAAAc6B6V99KxqoQMaobJMUILw==; ci_sessions=29cd1a3bcedf4e57b39a0e32cf6a10e3513eee67; _ga=GA1.1.1267116925.1733756746; _ga_4K1NTJKVN6=GS1.1.1733756746.1.1.1733757055.0.0.0';
+const COOKIE = 'nlbi_1649317=cJdLCsVHDVKMIseH52lTOQAAAAA1eEruphg4Q57/11xPTEjI; incap_ses_1409_1649317=xi3MHkTFHBBUJ6q7eMaNEyMwN2kAAAAApkmEBiyxTAVnieYrZn8gmQ==; _gid=GA1.3.708708698.1765224495; visid_incap_1649317=hp9sEDpWRCuu2LfQ1dErmiMwN2kAAAAAQkIPAAAAAACAeOvAAb6PupfAyRLSydIIlD9L1RKwjIug; incap_ses_1606_1649317=zPf4InHDR15d6Ko58qhJFl5HN2kAAAAAavHczYB3clgD5MPHSyAZ8w==; ci_sessions=vctgk0c807cclmj48no1c3ecdeddi0e8; incap_ses_1866_1649317=s4cHf/2AtwI80fEkJF3lGY6vOWkAAAAA5RFlJ0FP3064iLzk5BcM1w==; _ga_5PBQM5BVPH=GS2.1.s1765388175$o7$g1$t1765388190$j45$l0$h0; _ga=GA1.3.1544424311.1765224495';
 
 const DIR_PDF = path.join(__dirname, '..', 'data', 'iniciativas-pdf');
 const DIR_VOTACIONES = path.join(__dirname, '..', 'data', 'votaciones-raw');
@@ -19,24 +19,20 @@ if (!fs.existsSync(DIR_PDF)) {
 }
 
 /**
- * Obtener lista de iniciativas únicas que fueron votadas
+ * Obtener lista de iniciativas del período actual (2024+)
  */
-function obtenerIniciativasVotadas() {
-  const archivos = fs.readdirSync(DIR_VOTACIONES);
-  const iniciativas = new Set();
-
-  for (const archivo of archivos) {
-    if (!archivo.startsWith('votacion_')) continue;
-    
-    const ruta = path.join(DIR_VOTACIONES, archivo);
-    const contenido = JSON.parse(fs.readFileSync(ruta, 'utf-8'));
-    
-    if (contenido.iniciativa) {
-      iniciativas.add(contenido.iniciativa);
-    }
-  }
-
-  return Array.from(iniciativas).sort((a, b) => parseInt(a) - parseInt(b));
+function obtenerTodasLasIniciativas() {
+  const data = JSON.parse(fs.readFileSync(FILE_INICIATIVAS, 'utf-8'));
+  return data.iniciativas
+    .filter(i => {
+      if (!i.fecha) return false;
+      // Parsear fecha: "Jueves, 22 de septiembre de 2022" → extraer año
+      const match = i.fecha.match(/(\d{4})/);
+      const year = match ? parseInt(match[1]) : 0;
+      return year >= 2024;
+    })
+    .map(i => i.numero)
+    .sort((a, b) => parseInt(a) - parseInt(b));
 }
 
 /**
@@ -132,18 +128,17 @@ function esperar(ms) {
  * Proceso principal
  */
 async function main() {
-  console.log('🔍 Identificando iniciativas votadas...\n');
-  
-  const iniciativasVotadas = obtenerIniciativasVotadas();
-  console.log(`📋 Total de iniciativas votadas: ${iniciativasVotadas.length}\n`);
+  console.log('🔍 Descargando iniciativas del período actual (2024+)...\n');
+  const iniciativas = obtenerTodasLasIniciativas();
+  console.log(`📋 Total de iniciativas: ${iniciativas.length}\n`);
   
   let exitosos = 0;
   let errores = 0;
   let saltados = 0;
   
-  for (let i = 0; i < iniciativasVotadas.length; i++) {
-    const numero = iniciativasVotadas[i];
-    const progreso = `[${i + 1}/${iniciativasVotadas.length}]`;
+  for (let i = 0; i < iniciativas.length; i++) {
+    const numero = iniciativas[i];
+    const progreso = `[${i + 1}/${iniciativas.length}]`;
     
     console.log(`${progreso} 📄 Iniciativa ${numero}`);
     
@@ -185,7 +180,7 @@ async function main() {
     console.log('');
     
     // Esperar entre 1-3 segundos para no saturar el servidor
-    if (i < iniciativasVotadas.length - 1) {
+    if (i < iniciativas.length - 1) {
       const delay = 1000 + Math.random() * 2000;
       await esperar(delay);
     }
@@ -198,7 +193,7 @@ async function main() {
   console.log(`✅ Exitosos:  ${exitosos}`);
   console.log(`⏭️  Saltados:   ${saltados} (ya existían)`);
   console.log(`❌ Errores:    ${errores}`);
-  console.log(`📁 Total:      ${iniciativasVotadas.length}`);
+  console.log(`📁 Total:      ${iniciativas.length}`);
   console.log('═'.repeat(60));
   
   if (errores > 0) {

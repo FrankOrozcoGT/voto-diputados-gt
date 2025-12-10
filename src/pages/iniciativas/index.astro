@@ -1,0 +1,14 @@
+---
+import AuthenticatedLayout from '@/layouts/AuthenticatedLayout.astro';
+import { QueryClientWrapper } from '@/features/auth/components/QueryClientWrapper';
+import { getIniciativas } from '@/core/iniciativas';
+
+const iniciativas = await getIniciativas.execute();
+---
+
+<AuthenticatedLayout title="Iniciativas Legislativas">
+  <div class="container mx-auto px-4 py-8">
+    <h1 class="text-3xl font-bold mb-6">Iniciativas Legislativas</h1>
+    <QueryClientWrapper client:only="react" initialData={iniciativas} />
+  </div>
+</AuthenticatedLayout>

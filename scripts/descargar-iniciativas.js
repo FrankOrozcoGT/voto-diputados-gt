@@ -17,7 +17,7 @@ const OUTPUT_FILE = path.join(__dirname, '../data/iniciativas.json');
 const TMP_HTML = '/tmp/iniciativas.html';
 
 // Cookie actualizada - REEMPLAZAR cuando expire
-let cookies = 'nlbi_1649317=cJdLCsVHDVKMIseH52lTOQAAAAA1eEruphg4Q57/11xPTEjI; incap_ses_1409_1649317=xi3MHkTFHBBUJ6q7eMaNEyMwN2kAAAAApkmEBiyxTAVnieYrZn8gmQ==; _gid=GA1.3.708708698.1765224495; visid_incap_1649317=hp9sEDpWRCuu2LfQ1dErmiMwN2kAAAAAQkIPAAAAAACAeOvAAb6PupfAyRLSydIIlD9L1RKwjIug; incap_ses_1606_1649317=zPf4InHDR15d6Ko58qhJFl5HN2kAAAAAavHczYB3clgD5MPHSyAZ8w==; incap_ses_1866_1649317=jp8DUU83bBkGUPkjJF3lGQyYOGkAAAAAU6jg+1Qj64zf+f90k2L8gg==; ci_sessions=cto75uf9i02h5nadc5ftdtpf02bcpi9e; _gat_gtag_UA_90716026_1=1; _ga=GA1.3.1544424311.1765224495; _ga_5PBQM5BVPH=GS2.1.s1765316621$o3$g1$t1765316951$j38$l0$h0';
+let cookies = 'nlbi_1649317=cJdLCsVHDVKMIseH52lTOQAAAAA1eEruphg4Q57/11xPTEjI; incap_ses_1409_1649317=xi3MHkTFHBBUJ6q7eMaNEyMwN2kAAAAApkmEBiyxTAVnieYrZn8gmQ==; _gid=GA1.3.708708698.1765224495; visid_incap_1649317=hp9sEDpWRCuu2LfQ1dErmiMwN2kAAAAAQkIPAAAAAACAeOvAAb6PupfAyRLSydIIlD9L1RKwjIug; incap_ses_1606_1649317=zPf4InHDR15d6Ko58qhJFl5HN2kAAAAAavHczYB3clgD5MPHSyAZ8w==; ci_sessions=n8v7dmilqcaa3r1o8a6lddlfmnsmoup3; incap_ses_1866_1649317=k1mYahkF/DU0wJ4kJF3lGRF7OWkAAAAAHl3/1CPmVKlIxi06k94Wnw==; _ga=GA1.3.1544424311.1765224495; _ga_5PBQM5BVPH=GS2.1.s1765374739$o4$g0$t1765374740$j59$l0$h0';
 
 console.log('📋 DESCARGADOR DE INICIATIVAS DEL CONGRESO\n');
 
@@ -81,8 +81,8 @@ function extraerIniciativas(html) {
     // Extraer fecha
     const fechaTexto = $card.find('p.card-text').first().text().trim();
     
-    // Extraer resumen (está dentro del div con scroll)
-    const resumen = $card.find('div[style*="overflow-y: scroll"] p.card-text').text().trim();
+    // Extraer resumen (está dentro del div con scroll) - SOLO el primero
+    const resumen = $card.find('div[style*="overflow-y: scroll"] p.card-text').first().text().trim();
     
     // Extraer URL del PDF
     const pdfUrl = $card.find('a[download]').attr('href') || null;
